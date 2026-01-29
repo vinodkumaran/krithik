@@ -205,15 +205,6 @@ function HireCab() {
 
           {/* Right Column - Images */}
           <div className="space-y-8">
-            {/* Weekend Package Image */}
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-              <img
-                src="/Hill stations set-1 4 personals.png"
-                alt="Weekend Package - Yercaud or Kodaikanal"
-                className="w-full h-auto"
-              />
-            </div>
-
             {/* Services Overview Image */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
               <img
