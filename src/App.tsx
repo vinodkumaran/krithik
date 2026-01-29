@@ -1,14 +1,14 @@
-import { MapPin, Phone, Mail, Calendar, Menu, X, FileText, Car, Bus } from 'lucide-react';
+import { MapPin, Phone, Mail, Calendar, FileText, Car, Bus, Instagram, Facebook, Youtube, MessageCircle, Hotel, Train, UtensilsCrossed, MapPinned } from 'lucide-react';
 import { useState } from 'react';
+import Header from './components/Header';
 import BookingModal from './components/BookingModal';
 import ItineraryModal from './components/ItineraryModal';
-import MobileMenu from './components/MobileMenu';
+import ReviewSlider from './components/ReviewSlider';
 import { getItinerary } from './data/itineraries';
 
 function App() {
   const whatsappNumber = '918925001292';
   const whatsappLink = `https://web.whatsapp.com/send?phone=${whatsappNumber}`;
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [bookingModalOpen, setBookingModalOpen] = useState(false);
   const [selectedPackage, setSelectedPackage] = useState<string>('');
   const [itineraryModalOpen, setItineraryModalOpen] = useState(false);
@@ -17,29 +17,23 @@ function App() {
   const topDestinations = [
     {
       name: 'Palani One Day Trip',
-      price: 5999,
+      price: 4999,
       duration: '1 Day',
       image: '/palani.jpg'
     },
     {
       name: 'Alleppey Boat Stay',
       price: 14999,
-      duration: '2 Days',
+      duration: 'One Night Family Stay at Boat House',
       image: '/allepey.jpg'
     }
   ];
 
   const primaryPackages = [
     {
-      name: 'Kodaikanal',
-      weekend: 14999,
-      holiday: 22999,
-      image: '/Kodaikanal.jpg'
-    },
-    {
       name: 'Yercaud',
-      weekend: 14999,
-      holiday: 22999,
+      weekend: 12999,
+      holiday: 20999,
       image: '/Yercaud.jpg'
     },
     {
@@ -47,6 +41,12 @@ function App() {
       weekend: 14999,
       holiday: 22999,
       image: '/munnar copy.jpg'
+    },
+    {
+      name: 'Kodaikanal',
+      weekend: 14999,
+      holiday: 22999,
+      image: '/Kodaikanal.jpg'
     }
   ];
 
@@ -55,25 +55,25 @@ function App() {
       name: 'Mysore',
       weekend: 14999,
       holiday: 22999,
-      image: 'https://images.pexels.com/photos/3581368/pexels-photo-3581368.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/Mysore.jpg'
     },
     {
       name: 'Ooty',
       weekend: 14999,
-      holiday: 22999,
+      holiday: 23999,
       image: '/ooty.jpg'
     },
     {
       name: 'Coorg',
       weekend: 14999,
       holiday: 22999,
-      image: 'https://images.pexels.com/photos/12344275/pexels-photo-12344275.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/Coorg.jpg'
     },
     {
       name: 'Valparai',
       weekend: 14999,
       holiday: 22999,
-      image: 'https://images.pexels.com/photos/14355953/pexels-photo-14355953.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/valparai.jpg'
     }
   ];
 
@@ -92,64 +92,65 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">
-      {/* Header */}
-      <header className="bg-white shadow-md sticky top-0 z-50 -mb-0">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <img
-              src="/krithik_travels_logo.png"
-              alt="Krithik Tours & Travels"
-              className="h-12 md:h-16 lg:h-20"
-            />
-
-            {/* Desktop Menu */}
-            <div className="hidden md:flex items-center gap-4">
-              <a
-                href="/hire"
-                className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg flex items-center gap-2"
-              >
-                Hire a Cab
-              </a>
-              <button
-                onClick={() => handleBooking('General Inquiry')}
-                className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg flex items-center gap-2"
-              >
-                <Phone size={20} />
-                Book Now
-              </button>
-            </div>
-
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setMobileMenuOpen(true)}
-              className="md:hidden bg-green-500 hover:bg-green-600 text-white p-3 rounded-full transition-all"
-              aria-label="Toggle menu"
-            >
-              <Menu size={24} />
-            </button>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-green-600 via-emerald-600 to-teal-600 text-white overflow-hidden">
-        <div className="container mx-auto px-4 pt-8 pb-16 md:pt-12 md:pb-24">
+        <div className="container mx-auto px-3 pt-4 pb-6 md:px-4 md:pt-12 md:pb-24">
+          {/* Mobile: Top Destinations First */}
+          <div className="md:hidden mb-4 grid grid-cols-2 gap-2">
+            <button
+              onClick={() => handleViewItinerary('Sabarimala')}
+              className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 active:scale-95 transition-all cursor-pointer"
+            >
+              <img
+                src="/sabarimala_trip.jpg"
+                alt="Sabarimala"
+                className="w-full h-40 object-cover"
+              />
+              <div className="p-2">
+                <h3 className="font-bold text-base">Sabarimala</h3>
+                <p className="text-xs text-green-100">Group Tours</p>
+              </div>
+            </button>
+            <button
+              onClick={() => handleViewItinerary('Kodaikanal')}
+              className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 active:scale-95 transition-all cursor-pointer"
+            >
+              <img
+                src="/bus-card.jpg"
+                alt="Bus to Chennai/Bangalore"
+                className="w-full h-40 object-cover"
+              />
+              <div className="p-2">
+                <h3 className="font-bold text-base">Daily Bus</h3>
+                <p className="text-xs text-green-100">Departure Tonight</p>
+              </div>
+            </button>
+          </div>
+
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Left Content - Image Grid (On Mobile: Shows Second) */}
-            <div className="grid grid-cols-2 gap-4 order-2 md:order-1">
+            {/* Left Content - Image Grid (Desktop Only) */}
+            <div className="hidden md:grid grid-cols-2 gap-4 md:order-1">
               <div className="space-y-4">
-                <div className="bg-white/10 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all">
+                <button
+                  onClick={() => handleViewItinerary('Sabarimala')}
+                  className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-all cursor-pointer w-full text-left"
+                >
                   <img
-                    src="/Kodaikanal.jpg"
-                    alt="Kodaikanal"
+                    src="/sabarimala_trip.jpg"
+                    alt="Sabarimala"
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-4">
-                    <h3 className="font-bold text-lg">Kodaikanal</h3>
-                    <p className="text-sm text-green-100">From ₹14,999</p>
+                    <h3 className="font-bold text-lg">Sabarimala</h3>
+                    <p className="text-sm text-green-100">Group Tours</p>
                   </div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all">
+                </button>
+                <button
+                  onClick={() => handleViewItinerary('Munnar')}
+                  className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-all cursor-pointer w-full text-left"
+                >
                   <img
                     src="/munnar copy.jpg"
                     alt="Munnar"
@@ -157,23 +158,29 @@ function App() {
                   />
                   <div className="p-4">
                     <h3 className="font-bold text-lg">Munnar</h3>
-                    <p className="text-sm text-green-100">From ₹14,999</p>
+                    <p className="text-sm text-green-100">Stay + Driver Included</p>
                   </div>
-                </div>
+                </button>
               </div>
               <div className="space-y-4 pt-8">
-                <div className="bg-white/10 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all">
+                <button
+                  onClick={() => handleViewItinerary('Kodaikanal')}
+                  className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-all cursor-pointer w-full text-left"
+                >
                   <img
-                    src="/Yercaud.jpg"
-                    alt="Yercaud"
+                    src="/bus-card.jpg"
+                    alt="Bus to Chennai/Bangalore"
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-4">
-                    <h3 className="font-bold text-lg">Yercaud</h3>
-                    <p className="text-sm text-green-100">From ₹14,999</p>
+                    <h3 className="font-bold text-lg">Daily Bus</h3>
+                    <p className="text-sm text-green-100">Departure Tonight</p>
                   </div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all">
+                </button>
+                <button
+                  onClick={() => handleViewItinerary('Ooty')}
+                  className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-all cursor-pointer w-full text-left"
+                >
                   <img
                     src="/ooty.jpg"
                     alt="Ooty"
@@ -181,36 +188,64 @@ function App() {
                   />
                   <div className="p-4">
                     <h3 className="font-bold text-lg">Ooty</h3>
-                    <p className="text-sm text-green-100">From ₹14,999</p>
+                    <p className="text-sm text-green-100">Stay + Driver Included</p>
                   </div>
-                </div>
+                </button>
               </div>
             </div>
 
-            {/* Right Content - Text (On Mobile: Shows First) */}
-            <div className="space-y-6 animate-fade-in order-1 md:order-2">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                Commit to Comfort Travel
+            {/* Right Content - Text with Scroll Animation */}
+            <div className="space-y-4 md:space-y-8 animate-fade-in md:order-2">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-slide-up relative">
+                <span className="bg-gradient-to-r from-white via-yellow-100 to-white bg-clip-text text-transparent animate-shine bg-[length:200%_100%]">
+                  South India Tours and Packages 2026
+                </span>
               </h1>
-              <p className="text-lg md:text-xl text-green-100 leading-relaxed">
-                Discover amazing destinations across South India with our expertly curated tour packages. Experience comfort, reliability, and unforgettable memories.
-              </p>
-              <div className="flex flex-wrap gap-4 pt-4">
-                <a
-                  href="#packages"
-                  className="inline-flex items-center bg-white text-green-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl"
-                >
-                  Explore Packages
-                </a>
-                <button
-                  onClick={() => handleBooking('General Inquiry')}
-                  className="inline-flex items-center bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-all transform hover:scale-105 shadow-xl"
-                >
-                  <Phone size={20} className="mr-2" />
-                  Book Now
-                </button>
+
+              {/* Service Icons */}
+              <div className="flex flex-wrap items-center justify-start gap-2 md:gap-6 py-2 md:py-4">
+                <div className="group">
+                  <div className="bg-white/20 backdrop-blur-sm p-2 md:p-3 rounded-full transition-all hover:bg-white/30 hover:scale-110 animate-pulse">
+                    <Hotel size={20} className="text-white md:w-6 md:h-6" />
+                  </div>
+                </div>
+                <div className="group">
+                  <div className="bg-white/20 backdrop-blur-sm p-2 md:p-3 rounded-full transition-all hover:bg-white/30 hover:scale-110 animate-pulse" style={{ animationDelay: '0.2s' }}>
+                    <Car size={20} className="text-white md:w-6 md:h-6" />
+                  </div>
+                </div>
+                <div className="group">
+                  <div className="bg-white/20 backdrop-blur-sm p-2 md:p-3 rounded-full transition-all hover:bg-white/30 hover:scale-110 animate-pulse" style={{ animationDelay: '0.4s' }}>
+                    <Train size={20} className="text-white md:w-6 md:h-6" />
+                  </div>
+                </div>
+                <div className="group">
+                  <div className="bg-white/20 backdrop-blur-sm p-2 md:p-3 rounded-full transition-all hover:bg-white/30 hover:scale-110 animate-pulse" style={{ animationDelay: '0.6s' }}>
+                    <MapPinned size={20} className="text-white md:w-6 md:h-6" />
+                  </div>
+                </div>
+                <div className="group">
+                  <div className="bg-white/20 backdrop-blur-sm p-2 md:p-3 rounded-full transition-all hover:bg-white/30 hover:scale-110 animate-pulse" style={{ animationDelay: '0.8s' }}>
+                    <UtensilsCrossed size={20} className="text-white md:w-6 md:h-6" />
+                  </div>
+                </div>
               </div>
-              <div className="grid grid-cols-3 gap-6 pt-8">
+
+              <div className="pt-2 md:pt-4 animate-slide-up-delay">
+                <a
+                  href="tel:8925001292"
+                  className="group relative inline-flex items-center justify-center bg-white text-green-600 px-10 py-5 rounded-lg font-bold text-lg overflow-hidden transition-all hover:scale-105 shadow-xl hover:shadow-2xl"
+                >
+                  <span className="relative z-10 flex items-center gap-2">
+                    <Phone size={24} />
+                    Call 8925001292
+                  </span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-green-50 to-white transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
+                </a>
+              </div>
+
+              {/* Stats Section */}
+              <div className="grid grid-cols-3 gap-3 md:gap-6 pt-3 md:pt-6 animate-fade-in-stats">
                 <div className="text-center">
                   <div className="text-3xl md:text-4xl font-bold">10+</div>
                   <div className="text-sm md:text-base text-green-200 mt-1">Destinations</div>
@@ -225,6 +260,38 @@ function App() {
                 </div>
               </div>
             </div>
+          </div>
+
+          {/* Mobile: Other Destinations Below Stats */}
+          <div className="md:hidden mt-4 grid grid-cols-2 gap-2">
+            <button
+              onClick={() => handleViewItinerary('Munnar')}
+              className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 active:scale-95 transition-all cursor-pointer"
+            >
+              <img
+                src="/munnar copy.jpg"
+                alt="Munnar"
+                className="w-full h-40 object-cover"
+              />
+              <div className="p-2">
+                <h3 className="font-bold text-base">Munnar</h3>
+                <p className="text-xs text-green-100">Stay + Driver Included</p>
+              </div>
+            </button>
+            <button
+              onClick={() => handleViewItinerary('Ooty')}
+              className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 active:scale-95 transition-all cursor-pointer"
+            >
+              <img
+                src="/ooty.jpg"
+                alt="Ooty"
+                className="w-full h-40 object-cover"
+              />
+              <div className="p-2">
+                <h3 className="font-bold text-base">Ooty</h3>
+                <p className="text-xs text-green-100">Stay + Driver Included</p>
+              </div>
+            </button>
           </div>
         </div>
       </section>
@@ -246,12 +313,15 @@ function App() {
                   alt={dest.name}
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute top-4 right-4 bg-orange-500 text-white px-4 py-2 rounded-full font-bold">
-                  ₹{dest.price.toLocaleString()}
+                <div className="absolute top-4 right-4 bg-green-600 text-white px-4 py-2 rounded-xl font-semibold text-xs shadow-lg">
+                  Guide Included
                 </div>
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold text-gray-800 mb-2">{dest.name}</h3>
+                <div className="text-sm text-green-700 font-semibold mb-3">
+                  Driver Included • Toll Charges • Family Safety First
+                </div>
                 <div className="flex items-center text-gray-600 mb-4">
                   <Calendar size={20} className="mr-2" />
                   <span>{dest.duration}</span>
@@ -259,14 +329,14 @@ function App() {
                 <div className="flex gap-3">
                   <button
                     onClick={() => handleViewItinerary(dest.name)}
-                    className="flex-1 bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-lg font-semibold transition-all flex items-center justify-center gap-2"
+                    className="flex-1 bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-semibold transition-all flex items-center justify-center gap-2"
                   >
                     <FileText size={20} />
                     Itinerary
                   </button>
                   <button
                     onClick={() => handleBooking(dest.name)}
-                    className="flex-1 bg-green-500 hover:bg-green-600 text-white py-3 rounded-lg font-semibold transition-all"
+                    className="flex-1 bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-semibold transition-all"
                   >
                     Book Now
                   </button>
@@ -309,20 +379,34 @@ function App() {
                   </h3>
                 </div>
                 <div className="p-6">
+                  <div className="mb-4 bg-green-50 rounded-lg p-3 border border-green-200">
+                    <p className="text-xs text-green-700 font-semibold text-center">
+                      Pickup & Drop to Railway Station / Airport Included
+                    </p>
+                  </div>
                   <div className="space-y-4">
                     <div className="border-l-4 border-green-500 pl-4">
-                      <p className="text-gray-600 text-sm">2 Days 1 Night - Weekend Trip</p>
-                      <p className="text-2xl font-bold text-gray-800">₹{pkg.weekend.toLocaleString()}</p>
+                      <p className="text-gray-800 font-semibold text-sm mb-1">Weekend Trip</p>
+                      <p className="text-sm text-gray-700 leading-relaxed">
+                        Hotel Stay Included • Driver Included • Pickup & Drop Available
+                      </p>
                     </div>
                     <div className="border-l-4 border-emerald-500 pl-4">
-                      <p className="text-gray-600 text-sm">3 Days 2 Nights - Holiday Trip</p>
-                      <p className="text-2xl font-bold text-gray-800">₹{pkg.holiday.toLocaleString()}</p>
+                      <p className="text-gray-800 font-semibold text-sm mb-1">Holiday Trip</p>
+                      <p className="text-sm text-gray-700 leading-relaxed">
+                        Hotel + Driver Included • Airport / Railway Transfers
+                      </p>
+                    </div>
+                    <div className="text-center pt-2">
+                      <p className="text-xs text-gray-600 font-medium">
+                        Stay + Driver + Pickup & Drop
+                      </p>
                     </div>
                   </div>
                   <div className="flex gap-3 mt-6">
                     <button
                       onClick={() => handleViewItinerary(pkg.name)}
-                      className="flex-1 bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-lg font-semibold transition-all flex items-center justify-center gap-2"
+                      className="flex-1 bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-semibold transition-all flex items-center justify-center gap-2"
                     >
                       <FileText size={20} />
                       Itinerary
@@ -370,27 +454,36 @@ function App() {
                   </h3>
                 </div>
                 <div className="p-5">
+                  <div className="mb-3 bg-teal-50 rounded-lg p-2 border border-teal-200">
+                    <p className="text-xs text-teal-700 font-semibold text-center">
+                      Stay Included
+                    </p>
+                  </div>
                   <div className="space-y-3">
-                    <div className="flex justify-between items-center">
-                      <span className="text-gray-600 text-sm">Weekend</span>
-                      <span className="text-lg font-bold text-gray-800">₹{pkg.weekend.toLocaleString()}</span>
+                    <div className="border-l-4 border-teal-500 pl-3">
+                      <p className="text-gray-800 font-semibold text-xs mb-1">Weekend Trip</p>
+                      <p className="text-xs text-gray-700 leading-relaxed">
+                        Hotel Stay + Driver + Pickup & Drop
+                      </p>
                     </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-gray-600 text-sm">Holiday</span>
-                      <span className="text-lg font-bold text-gray-800">₹{pkg.holiday.toLocaleString()}</span>
+                    <div className="border-l-4 border-teal-600 pl-3">
+                      <p className="text-gray-800 font-semibold text-xs mb-1">Holiday Trip</p>
+                      <p className="text-xs text-gray-700 leading-relaxed">
+                        Hotel + Driver + Airport Transfers
+                      </p>
                     </div>
                   </div>
                   <div className="flex gap-3 mt-5">
                     <button
                       onClick={() => handleViewItinerary(pkg.name)}
-                      className="flex-1 bg-blue-500 hover:bg-blue-600 text-white py-2.5 rounded-lg font-semibold transition-all flex items-center justify-center gap-2"
+                      className="flex-1 bg-green-600 hover:bg-green-700 text-white py-2.5 rounded-lg font-semibold transition-all flex items-center justify-center gap-2"
                     >
                       <FileText size={18} />
                       Itinerary
                     </button>
                     <button
                       onClick={() => handleBooking(pkg.name)}
-                      className="flex-1 bg-teal-600 hover:bg-teal-700 text-white py-2.5 rounded-lg font-semibold transition-all"
+                      className="flex-1 bg-green-600 hover:bg-green-700 text-white py-2.5 rounded-lg font-semibold transition-all"
                     >
                       Book Now
                     </button>
@@ -398,28 +491,6 @@ function App() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Location Map */}
-      <section className="bg-gray-100 py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
-            Find Us
-          </h2>
-          <div className="max-w-5xl mx-auto">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4017831.435226106!2d73.04038802499997!3d10.448253400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9df1d1a988ecf%3A0x9b59ceba4e38654f!2sKrithik%20Tours%20%26Travels%20Palani!5e0!3m2!1sen!2sin!4v1763308951484!5m2!1sen!2sin"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
           </div>
         </div>
       </section>
@@ -444,12 +515,12 @@ function App() {
               <p className="text-gray-600 text-sm text-center">Comfortable sedan for small groups</p>
             </div>
 
-            <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow border-t-4 border-blue-500">
-              <div className="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4 mx-auto">
-                <Car size={32} className="text-blue-600" />
+            <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow border-t-4 border-green-600">
+              <div className="flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4 mx-auto">
+                <Car size={32} className="text-green-600" />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2 text-center">Tavera or Innova</h3>
-              <p className="text-blue-600 font-bold text-center mb-3">starts at ₹5,999</p>
+              <p className="text-green-600 font-bold text-center mb-3">starts at ₹5,999</p>
               <p className="text-gray-600 text-sm text-center">Spacious SUVs for family trips</p>
             </div>
 
@@ -474,10 +545,79 @@ function App() {
         </div>
       </section>
 
+      {/* Customer Reviews */}
+      <ReviewSlider />
+
+      {/* Video Testimonials Slider */}
+      <section className="py-16 bg-gradient-to-b from-white to-green-50 overflow-hidden">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+              Customer Video Testimonials
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Watch real experiences from our happy travelers
+            </p>
+          </div>
+
+          <div className="relative">
+            <div className="overflow-x-auto pb-4 scrollbar-hide" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+              <div className="grid grid-rows-2 grid-flow-col gap-4 w-max">
+                {[
+                  { id: 'vBgOT0SVn9o', title: 'Customer Testimonial 1' },
+                  { id: 'gLlWCa6gva8', title: 'Customer Testimonial 3' },
+                  { id: 'Y0QLknVh_l0', title: 'Customer Testimonial 5' },
+                  { id: 'c6lhxrWPpkM', title: 'Customer Testimonial 7' }
+                ].map((video) => (
+                  <div key={video.id} className="w-[300px] md:w-[400px] rounded-xl overflow-hidden shadow-xl transform hover:scale-105 transition-all duration-300">
+                    <div className="aspect-video">
+                      <iframe
+                        src={`https://www.youtube.com/embed/${video.id}?autoplay=1&mute=1&loop=1&playlist=${video.id}`}
+                        title={video.title}
+                        className="w-full h-full"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
+                    </div>
+                  </div>
+                ))}
+                {[
+                  { id: 'dEk4SZk9AHs', title: 'Customer Testimonial 2' },
+                  { id: 'XJyPE98saaY', title: 'Customer Testimonial 4' },
+                  { id: 'IuV68idN6X0', title: 'Customer Testimonial 6' },
+                  { id: 'dTlh37mZ2D8', title: 'Customer Testimonial 8' }
+                ].map((video) => (
+                  <div key={video.id} className="w-[300px] md:w-[400px] rounded-xl overflow-hidden shadow-xl transform hover:scale-105 transition-all duration-300">
+                    <div className="aspect-video">
+                      <iframe
+                        src={`https://www.youtube.com/embed/${video.id}?autoplay=1&mute=1&loop=1&playlist=${video.id}`}
+                        title={video.title}
+                        className="w-full h-full"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="text-center mt-6">
+              <a
+                href="/customer-testimonials"
+                className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all transform hover:scale-105 shadow-xl"
+              >
+                View All Videos
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-12">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
             <div>
               <img
                 src="/krithik_travels_logo.png"
@@ -501,11 +641,11 @@ function App() {
                   +91 89250 01292
                 </a>
                 <a
-                  href="mailto:krithiktoursandtravels@gmail.com"
+                  href="mailto:krithiktravels2607@gmail.com"
                   className="flex items-center text-gray-300 hover:text-white transition-colors"
                 >
                   <Mail size={20} className="mr-3" />
-                  krithiktoursandtravels@gmail.com
+                  krithiktravels2607@gmail.com
                 </a>
                 <a
                   href="https://share.google/7d6cvuPYRa27zVHO2"
@@ -526,6 +666,47 @@ function App() {
                 <li><a href="https://share.google/7d6cvuPYRa27zVHO2" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">Contact</a></li>
               </ul>
             </div>
+            <div>
+              <h3 className="text-xl font-bold mb-4">Follow Us</h3>
+              <div className="space-y-3">
+                <a
+                  href="https://www.instagram.com/krithik_tours_travels_palani/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-gray-300 hover:text-pink-400 transition-colors"
+                >
+                  <Instagram size={20} className="mr-3" />
+                  Instagram
+                </a>
+                <a
+                  href="https://www.facebook.com/krithiktoursandtravels/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-gray-300 hover:text-blue-400 transition-colors"
+                >
+                  <Facebook size={20} className="mr-3" />
+                  Facebook
+                </a>
+                <a
+                  href="https://www.youtube.com/@KrithikToursTravels"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-gray-300 hover:text-red-400 transition-colors"
+                >
+                  <Youtube size={20} className="mr-3" />
+                  YouTube
+                </a>
+                <a
+                  href="https://web.whatsapp.com/send?phone=918925001292"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-gray-300 hover:text-green-400 transition-colors"
+                >
+                  <MessageCircle size={20} className="mr-3" />
+                  WhatsApp
+                </a>
+              </div>
+            </div>
           </div>
           <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Krithik Tours & Travels. All rights reserved.</p>
@@ -534,13 +715,15 @@ function App() {
       </footer>
 
       {/* WhatsApp Floating Button */}
-      <button
-        onClick={() => handleBooking('General Inquiry')}
-        className="fixed bottom-8 right-8 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl transition-all transform hover:scale-110 z-50"
-        aria-label="Book Now"
+      <a
+        href="https://wa.me/918925001292"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-8 right-8 bg-[#25D366] hover:bg-[#20BA5A] text-white p-4 rounded-full shadow-2xl transition-all transform hover:scale-110 z-50"
+        aria-label="Chat on WhatsApp"
       >
-        <Phone size={28} />
-      </button>
+        <MessageCircle size={28} />
+      </a>
 
       <BookingModal
         isOpen={bookingModalOpen}
@@ -559,11 +742,6 @@ function App() {
           exclusions={currentItinerary.exclusions}
         />
       )}
-
-      <MobileMenu
-        isOpen={mobileMenuOpen}
-        onClose={() => setMobileMenuOpen(false)}
-      />
     </div>
   );
 }
