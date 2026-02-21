@@ -55,7 +55,7 @@ function App() {
       name: 'Mysore',
       weekend: 14999,
       holiday: 22999,
-      image: '/Mysore.jpg'
+      image: '/Mysore.jpeg'
     },
     {
       name: 'Ooty',
