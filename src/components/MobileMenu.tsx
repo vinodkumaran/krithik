@@ -113,15 +113,6 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             </a>
           </div>
 
-          <div className="mb-6 pb-4 border-b border-gray-200">
-            <a
-              href="/customer-testimonials"
-              className="block w-full px-6 py-4 bg-green-600 hover:bg-green-700 text-white rounded-lg font-bold text-center transition-colors"
-            >
-              Videos
-            </a>
-          </div>
-
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Our Fleet</h2>
 
           <div className="space-y-3 mb-8">
