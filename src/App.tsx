@@ -40,7 +40,7 @@ function App() {
       name: 'Munnar',
       weekend: 14999,
       holiday: 22999,
-      image: '/munnar copy.jpg'
+      image: '/munnar.jpg'
     },
     {
       name: 'Kodaikanal',
@@ -152,7 +152,7 @@ function App() {
                   className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-all cursor-pointer w-full text-left"
                 >
                   <img
-                    src="/munnar copy.jpg"
+                    src="/munnar.jpg"
                     alt="Munnar"
                     className="w-full h-48 object-cover"
                   />
@@ -269,7 +269,7 @@ function App() {
               className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 active:scale-95 transition-all cursor-pointer"
             >
               <img
-                src="/munnar copy.jpg"
+                src="/munnar.jpg"
                 alt="Munnar"
                 className="w-full h-40 object-cover"
               />
