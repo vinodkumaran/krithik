@@ -617,7 +617,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-12">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
             <div>
               <img
                 src="/krithik_travels_logo.png"
@@ -659,11 +659,23 @@ function App() {
               </div>
             </div>
             <div>
+              <h3 className="text-xl font-bold mb-4">Destinations</h3>
+              <ul className="space-y-2">
+                <li><a href="/palani-one-day-temple-trip" className="text-gray-300 hover:text-white transition-colors text-sm">Palani One Day Trip</a></li>
+                <li><a href="/alleppey-overnight-houseboat-stay" className="text-gray-300 hover:text-white transition-colors text-sm">Alleppey Houseboat</a></li>
+                <li><a href="/yercaud-hill-station-tour-itinerary" className="text-gray-300 hover:text-white transition-colors text-sm">Yercaud Tour</a></li>
+                <li><a href="/munnar-nature-tour-itinerary" className="text-gray-300 hover:text-white transition-colors text-sm">Munnar Nature Tour</a></li>
+                <li><a href="/kodaikanal-2-day-sightseeing-itinerary" className="text-gray-300 hover:text-white transition-colors text-sm">Kodaikanal</a></li>
+                <li><a href="/mysore-heritage-tour-itinerary" className="text-gray-300 hover:text-white transition-colors text-sm">Mysore Heritage</a></li>
+              </ul>
+            </div>
+            <div>
               <h3 className="text-xl font-bold mb-4">Quick Links</h3>
               <ul className="space-y-2">
-                <li><a href="#packages" className="text-gray-300 hover:text-white transition-colors">Tour Packages</a></li>
-                <li><button onClick={() => handleBooking('General Inquiry')} className="text-gray-300 hover:text-white transition-colors">Book Now</button></li>
-                <li><a href="https://share.google/7d6cvuPYRa27zVHO2" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                <li><a href="#packages" className="text-gray-300 hover:text-white transition-colors text-sm">Tour Packages</a></li>
+                <li><a href="/customer-testimonials" className="text-gray-300 hover:text-white transition-colors text-sm">Videos</a></li>
+                <li><a href="/hire" className="text-gray-300 hover:text-white transition-colors text-sm">Hire a Cab</a></li>
+                <li><button onClick={() => handleBooking('General Inquiry')} className="text-gray-300 hover:text-white transition-colors text-sm text-left">Book Now</button></li>
               </ul>
             </div>
             <div>
