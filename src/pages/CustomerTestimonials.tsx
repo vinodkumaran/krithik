@@ -31,7 +31,8 @@ function CustomerTestimonials() {
     { id: 'Y0QLknVh_l0', title: 'Customer Testimonial 5' },
     { id: 'IuV68idN6X0', title: 'Customer Testimonial 6' },
     { id: 'c6lhxrWPpkM', title: 'Customer Testimonial 7' },
-    { id: 'dTlh37mZ2D8', title: 'Customer Testimonial 8' }
+    { id: 'dTlh37mZ2D8', title: 'Customer Testimonial 8' },
+    { id: 'mkXwgeOoJcw', title: 'Customer Testimonial 9' }
   ];
 
   return (
@@ -283,10 +284,10 @@ function CustomerTestimonials() {
               <div key={video.id} className="relative rounded-xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-300">
                 <div className="aspect-video">
                   <iframe
-                    src={`https://www.youtube.com/embed/${video.id}?autoplay=1&mute=1&loop=1&playlist=${video.id}`}
+                    src={`https://www.youtube.com/embed/${video.id}`}
                     title={video.title}
                     className="w-full h-full"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                   />
                 </div>
