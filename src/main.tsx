@@ -12,6 +12,7 @@ import NRISouthIndiaTour from './pages/NRISouthIndiaTour.tsx';
 import MalaysiaTour from './pages/MalaysiaTour.tsx';
 import SingaporeTour from './pages/SingaporeTour.tsx';
 import CustomerTestimonials from './pages/CustomerTestimonials.tsx';
+import Videos from './pages/Videos.tsx';
 import PalaniOneDay from './pages/PalaniOneDay.tsx';
 import AlleppeyHouseboat from './pages/AlleppeyHouseboat.tsx';
 import YercaudHillStation from './pages/YercaudHillStation.tsx';
@@ -31,6 +32,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<App />} />
         <Route path="/hire" element={<HireCab />} />
         <Route path="/customer-testimonials" element={<CustomerTestimonials />} />
+        <Route path="/videos" element={<Videos />} />
         <Route path="/palani-temple-one-day-trip" element={<PalaniTempleTrip />} />
         <Route path="/kodaikanal-two-days-trip" element={<KodaikanalTrip />} />
         <Route path="/yercaud-tour-package-itinerary" element={<YercaudTour />} />

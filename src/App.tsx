@@ -604,7 +604,7 @@ function App() {
 
             <div className="text-center mt-6">
               <a
-                href="/customer-testimonials"
+                href="/videos"
                 className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all transform hover:scale-105 shadow-xl"
               >
                 View All Videos
@@ -660,22 +660,11 @@ function App() {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Destinations</h3>
-              <ul className="space-y-2">
-                <li><a href="/palani-one-day-temple-trip" className="text-gray-300 hover:text-white transition-colors text-sm">Palani One Day Trip</a></li>
-                <li><a href="/alleppey-overnight-houseboat-stay" className="text-gray-300 hover:text-white transition-colors text-sm">Alleppey Houseboat</a></li>
-                <li><a href="/yercaud-hill-station-tour-itinerary" className="text-gray-300 hover:text-white transition-colors text-sm">Yercaud Tour</a></li>
-                <li><a href="/munnar-nature-tour-itinerary" className="text-gray-300 hover:text-white transition-colors text-sm">Munnar Nature Tour</a></li>
-                <li><a href="/kodaikanal-2-day-sightseeing-itinerary" className="text-gray-300 hover:text-white transition-colors text-sm">Kodaikanal</a></li>
-                <li><a href="/mysore-heritage-tour-itinerary" className="text-gray-300 hover:text-white transition-colors text-sm">Mysore Heritage</a></li>
-              </ul>
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Quick Links</h3>
               <ul className="space-y-2">
-                <li><a href="#packages" className="text-gray-300 hover:text-white transition-colors text-sm">Tour Packages</a></li>
-                <li><a href="/customer-testimonials" className="text-gray-300 hover:text-white transition-colors text-sm">Videos</a></li>
-                <li><a href="/hire" className="text-gray-300 hover:text-white transition-colors text-sm">Hire a Cab</a></li>
-                <li><button onClick={() => handleBooking('General Inquiry')} className="text-gray-300 hover:text-white transition-colors text-sm text-left">Book Now</button></li>
+                <li><a href="/videos" className="text-gray-300 hover:text-white transition-colors text-sm">Videos</a></li>
               </ul>
             </div>
             <div>
