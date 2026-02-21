@@ -556,6 +556,40 @@ export const itineraries: PackageItinerary[] = [
     ]
   },
   {
+    name: 'Arupadai Veedu',
+    duration: '1 Day Trip',
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arupadai Veedu Temple Visit',
+        activities: [
+          'Pickup from home/railway station/hotel',
+          'Drive to Pazhamudircholai (Arupadai Veedu)',
+          'Visit the sacred Arupadai Veedu Murugan Temple',
+          'Experience the six divine abodes (Arupadai) of Lord Murugan',
+          'Temple darshan and prayers',
+          'Explore the temple premises and surrounding areas',
+          'Visit local shops for temple offerings and traditional items',
+          'Lunch at a nearby restaurant',
+          'Return journey to starting point',
+          'Drop at home/railway station/hotel'
+        ]
+      }
+    ],
+    inclusions: [
+      'Air-conditioned transportation',
+      'Driver-Cum-Guide',
+      'Toll charges included',
+      'Parking included',
+      'Family-safe travel'
+    ],
+    exclusions: [
+      'Meals (Breakfast / Lunch / Dinner)',
+      'Temple entrance fees',
+      'Special darshan charges'
+    ]
+  },
+  {
     name: 'Pilgrimage Special Tour',
     duration: '6 Nights / 7 Days',
     itinerary: [

@@ -100,17 +100,17 @@ function App() {
           {/* Mobile: Top Destinations First */}
           <div className="md:hidden mb-4 grid grid-cols-2 gap-2">
             <button
-              onClick={() => handleViewItinerary('Sabarimala')}
+              onClick={() => handleViewItinerary('Arupadai Veedu')}
               className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 active:scale-95 transition-all cursor-pointer"
             >
               <img
                 src="/sabarimala_trip.jpg"
-                alt="Sabarimala"
+                alt="Arupadai Veedu"
                 className="w-full h-40 object-cover"
               />
               <div className="p-2">
-                <h3 className="font-bold text-base">Sabarimala</h3>
-                <p className="text-xs text-green-100">Group Tours</p>
+                <h3 className="font-bold text-base">Arupadai Veedu</h3>
+                <p className="text-xs text-green-100">Temple Tour</p>
               </div>
             </button>
             <button
@@ -134,17 +134,17 @@ function App() {
             <div className="hidden md:grid grid-cols-2 gap-4 md:order-1">
               <div className="space-y-4">
                 <button
-                  onClick={() => handleViewItinerary('Sabarimala')}
+                  onClick={() => handleViewItinerary('Arupadai Veedu')}
                   className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-all cursor-pointer w-full text-left"
                 >
                   <img
                     src="/sabarimala_trip.jpg"
-                    alt="Sabarimala"
+                    alt="Arupadai Veedu"
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-4">
-                    <h3 className="font-bold text-lg">Sabarimala</h3>
-                    <p className="text-sm text-green-100">Group Tours</p>
+                    <h3 className="font-bold text-lg">Arupadai Veedu</h3>
+                    <p className="text-sm text-green-100">Temple Tour</p>
                   </div>
                 </button>
                 <button
