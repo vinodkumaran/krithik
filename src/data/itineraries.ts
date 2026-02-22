@@ -557,36 +557,56 @@ export const itineraries: PackageItinerary[] = [
   },
   {
     name: 'Arupadai Veedu',
-    duration: '1 Day Trip',
+    duration: '3 Days / 2 Nights',
     itinerary: [
       {
         day: 1,
-        title: 'Arupadai Veedu Temple Visit',
+        title: 'Palani | Pazhamudircholai | Thiruparankundram',
+        accommodation: 'Hotel in Madurai',
         activities: [
-          'Pickup from home/railway station/hotel',
-          'Drive to Pazhamudircholai (Arupadai Veedu)',
-          'Visit the sacred Arupadai Veedu Murugan Temple',
-          'Experience the six divine abodes (Arupadai) of Lord Murugan',
-          'Temple darshan and prayers',
-          'Explore the temple premises and surrounding areas',
-          'Visit local shops for temple offerings and traditional items',
-          'Lunch at a nearby restaurant',
-          'Return journey to starting point',
-          'Drop at home/railway station/hotel'
+          'Arrival at Palani Railway Junction',
+          'Private car pickup and direct transfer to Palani Murugan Temple',
+          'Temple darshan at Palani Murugan Temple',
+          'Hotel fresh-up facility',
+          'Visit Pazhamudircholai Murugan Temple in the evening',
+          'Visit Thiruparankundram Murugan Temple',
+          'Night stay at hotel in Madurai'
+        ]
+      },
+      {
+        day: 2,
+        title: 'Thiruchendur | Swamimalai',
+        accommodation: 'Hotel in Thanjavur',
+        activities: [
+          'Travel from Madurai to Thiruchendur by private car',
+          '10:00 AM - Darshan at Thiruchendur Murugan Temple',
+          '5:00 PM - Visit Swamimalai Murugan Temple',
+          '8:00 PM - Reach hotel in Thanjavur',
+          'Overnight stay at hotel in Thanjavur'
+        ]
+      },
+      {
+        day: 3,
+        title: 'Tiruttani',
+        activities: [
+          'Morning departure from Thanjavur to Tiruttani',
+          'Darshan at Tiruttani Murugan Temple',
+          'Drop at your home by private car',
+          'Tour concludes with divine blessings'
         ]
       }
     ],
     inclusions: [
-      'Air-conditioned transportation',
-      'Driver-Cum-Guide',
+      'Private car transportation throughout',
+      'Hotel accommodation for 2 nights',
+      'Driver for entire journey',
       'Toll charges included',
-      'Parking included',
-      'Family-safe travel'
+      'Parking charges included'
     ],
     exclusions: [
       'Meals (Breakfast / Lunch / Dinner)',
-      'Temple entrance fees',
-      'Special darshan charges'
+      'Temple entrance fees and special darshan charges',
+      'Personal expenses and tips'
     ]
   },
   {
