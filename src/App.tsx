@@ -564,10 +564,10 @@ function App() {
             <div className="overflow-x-auto pb-4 scrollbar-hide" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
               <div className="grid grid-rows-2 grid-flow-col gap-4 w-max">
                 {[
+                  { id: 'mkXwgeOoJcw', title: 'Customer Testimonial' },
                   { id: 'vBgOT0SVn9o', title: 'Customer Testimonial 1' },
                   { id: 'gLlWCa6gva8', title: 'Customer Testimonial 3' },
-                  { id: 'Y0QLknVh_l0', title: 'Customer Testimonial 5' },
-                  { id: 'c6lhxrWPpkM', title: 'Customer Testimonial 7' }
+                  { id: 'Y0QLknVh_l0', title: 'Customer Testimonial 5' }
                 ].map((video) => (
                   <div key={video.id} className="w-[300px] md:w-[400px] rounded-xl overflow-hidden shadow-xl transform hover:scale-105 transition-all duration-300">
                     <div className="aspect-video">
@@ -604,7 +604,9 @@ function App() {
 
             <div className="text-center mt-6">
               <a
-                href="/videos"
+                href="https://www.youtube.com/@KrithikToursTravels"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all transform hover:scale-105 shadow-xl"
               >
                 View All Videos
