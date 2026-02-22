@@ -1,5 +1,6 @@
-import { Menu } from 'lucide-react';
+import { Menu, Mountain } from 'lucide-react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import MobileMenu from './MobileMenu';
 
 interface HeaderProps {
@@ -23,6 +24,18 @@ export default function Header({ isDestinationPage = false }: HeaderProps) {
             </a>
 
             <div className="flex items-center gap-4">
+              {/* Desktop Navigation and Social Media Links */}
+              <div className="hidden md:flex items-center gap-3">
+                <Link
+                  to="/palani-tourist-places"
+                  className="p-3 rounded-full bg-gradient-to-br from-green-600 to-teal-600 hover:from-green-700 hover:to-teal-700 transition-all text-white"
+                  title="Palani Tourist Places"
+                  aria-label="Palani Tourist Places"
+                >
+                  <Mountain size={20} />
+                </Link>
+              </div>
+
               {/* Desktop Social Media Links */}
               <div className="hidden md:flex items-center gap-3">
                 <a

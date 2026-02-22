@@ -1,5 +1,6 @@
-import { X, Phone, Car, Users, Bus, Globe } from 'lucide-react';
+import { X, Phone, Car, Users, Bus, Globe, Mountain } from 'lucide-react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 interface MobileMenuProps {
   isOpen: boolean;
@@ -111,6 +112,20 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               <Phone size={20} />
               <span className="text-lg font-semibold">+91 89250 01292</span>
             </a>
+          </div>
+
+          <div className="mb-6 pb-6 border-b border-gray-200">
+            <Link
+              to="/palani-tourist-places"
+              onClick={() => onClose()}
+              className="flex items-center gap-3 bg-gradient-to-br from-green-600 to-teal-600 text-white hover:from-green-700 hover:to-teal-700 transition-all p-4 rounded-lg"
+            >
+              <Mountain size={24} />
+              <div>
+                <h3 className="font-bold text-lg">Palani Tourist Places</h3>
+                <p className="text-sm text-green-100">Explore sacred temples</p>
+              </div>
+            </Link>
           </div>
 
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Our Fleet</h2>

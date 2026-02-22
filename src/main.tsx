@@ -23,6 +23,7 @@ import OotyHillStation from './pages/OotyHillStation.tsx';
 import CoorgCoffeeEstate from './pages/CoorgCoffeeEstate.tsx';
 import ValparaiTeaEstate from './pages/ValparaiTeaEstate.tsx';
 import PilgrimageSpecialTour from './pages/PilgrimageSpecialTour.tsx';
+import PalaniTouristPlaces from './pages/PalaniTouristPlaces.jsx';
 import './index.css';
 
 createRoot(document.getElementById('root')!).render(
@@ -51,6 +52,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/coorg-coffee-estate-tour-plan" element={<CoorgCoffeeEstate />} />
         <Route path="/valparai-tea-estate-sightseeing-tour" element={<ValparaiTeaEstate />} />
         <Route path="/pilgrimage-special-tour-malaysia-singapore-nri" element={<PilgrimageSpecialTour />} />
+        <Route path="/palani-tourist-places" element={<PalaniTouristPlaces />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
