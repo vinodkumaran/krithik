@@ -3,6 +3,10 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import App from './App.tsx';
 import HireCab from './HireCab.tsx';
+import TamilHomepage from './pages/TamilHomepage.tsx';
+import HindiHomepage from './pages/HindiHomepage.tsx';
+import TeluguHomepage from './pages/TeluguHomepage.tsx';
+import KannadaHomepage from './pages/KannadaHomepage.tsx';
 import PalaniTempleTrip from './pages/PalaniTempleTrip.tsx';
 import KodaikanalTrip from './pages/KodaikanalTrip.tsx';
 import YercaudTour from './pages/YercaudTour.tsx';
@@ -31,6 +35,10 @@ createRoot(document.getElementById('root')!).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/tamil" element={<TamilHomepage />} />
+        <Route path="/hindi" element={<HindiHomepage />} />
+        <Route path="/telugu" element={<TeluguHomepage />} />
+        <Route path="/kannada" element={<KannadaHomepage />} />
         <Route path="/hire" element={<HireCab />} />
         <Route path="/customer-testimonials" element={<CustomerTestimonials />} />
         <Route path="/videos" element={<Videos />} />
