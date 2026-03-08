@@ -301,8 +301,7 @@ const PalaniTouristPlaces = () => {
       fullName: "Arulmigu Dhandayuthapani Swamy Temple",
       description: "Early morning darshan of Lord Murugan at the famous Palani Hill Temple, one of the six abodes of Lord Murugan",
       features: ["Winch Access", "Rope Car", "Steps", "Special Darshan Available"],
-      timing: "Early Morning",
-      highlight: "Most Famous"
+      timing: "Early Morning"
     },
     {
       id: 2,
@@ -351,8 +350,7 @@ const PalaniTouristPlaces = () => {
       name: "Rediyarchathiram Pathala Sembumruga Kovil",
       description: "Rare underground Murugan temple, a unique spiritual experience",
       features: ["Underground Temple", "Rare Experience", "Unique Architecture"],
-      category: "Unique Temple",
-      highlight: "Rare Underground Temple"
+      category: "Unique Temple"
     }
   ];
 
