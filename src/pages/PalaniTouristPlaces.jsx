@@ -2,6 +2,309 @@ import React from 'react';
 import { MapPin, Clock, Star, Phone, Mail, Navigation } from 'lucide-react';
 
 const PalaniTouristPlaces = () => {
+  React.useEffect(() => {
+    const schemas = [
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Famous Tourist Places in Palani",
+        "description": "Complete list of the best tourist places to visit in Palani, Tamil Nadu including temples, siddhar kovils, samadhis and rare underground temples.",
+        "url": "https://www.krithiktoursandtravels.com/palani-tourist-places",
+        "numberOfItems": 8,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "TouristAttraction",
+              "name": "Palani Hill Temple – Arulmigu Dhandayuthapani Swamy Temple",
+              "description": "One of the six abodes of Lord Murugan situated atop Palani Hill. Accessible by winch, rope car or 659 steps. Famous for early morning darshan.",
+              "url": "https://www.krithiktoursandtravels.com/palani-tourist-places",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Palani",
+                "addressRegion": "Tamil Nadu",
+                "addressCountry": "IN"
+              },
+              "touristType": ["Pilgrims", "Families", "Spiritual Seekers"],
+              "isAccessibleForFree": false
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "TouristAttraction",
+              "name": "Thiruavinangudi Temple",
+              "description": "Ancient Murugan temple at the foothills of Palani with rich historical significance and classical Tamil temple architecture.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Palani",
+                "addressRegion": "Tamil Nadu",
+                "addressCountry": "IN"
+              },
+              "touristType": ["Pilgrims", "History Enthusiasts"]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "TouristAttraction",
+              "name": "Mariyamman Kovil",
+              "description": "Temple dedicated to Goddess Mariyamman in Palani, known for protective blessings and divine energy.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Palani",
+                "addressRegion": "Tamil Nadu",
+                "addressCountry": "IN"
+              },
+              "touristType": ["Pilgrims", "Families"]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "TouristAttraction",
+              "name": "Periya Nayaki Amman Kovil",
+              "description": "Peaceful Amman temple in Palani with divine ambience, perfect for meditation and family visits.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Palani",
+                "addressRegion": "Tamil Nadu",
+                "addressCountry": "IN"
+              },
+              "touristType": ["Families", "Pilgrims", "Meditation Seekers"]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "TouristAttraction",
+              "name": "Periyaudaiyar Kovil",
+              "description": "Historic Shiva temple in Palani showcasing ancient Tamil architecture with deep spiritual significance.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Palani",
+                "addressRegion": "Tamil Nadu",
+                "addressCountry": "IN"
+              },
+              "touristType": ["Pilgrims", "Cultural Tourists"]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@type": "TouristAttraction",
+              "name": "Saakkadai Sithar Kovil",
+              "description": "Siddhar temple in Palani known for its healing vibrations, spiritual energy and meditation environment.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Palani",
+                "addressRegion": "Tamil Nadu",
+                "addressCountry": "IN"
+              },
+              "touristType": ["Spiritual Seekers", "Meditation Enthusiasts"]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+              "@type": "TouristAttraction",
+              "name": "Kannakampatti Sarguru Jeeva Samadhi",
+              "description": "Meditation-friendly samadhi site near Palani with a deeply peaceful and spiritual environment.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Palani",
+                "addressRegion": "Tamil Nadu",
+                "addressCountry": "IN"
+              },
+              "touristType": ["Meditation Seekers", "Spiritual Tourists"]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+              "@type": "TouristAttraction",
+              "name": "Rediyarchathiram Pathala Sembumruga Kovil",
+              "description": "Rare underground Murugan temple near Palani offering a unique and extraordinary spiritual experience found nowhere else in Tamil Nadu.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Rediyarchathiram",
+                "addressRegion": "Tamil Nadu",
+                "addressCountry": "IN"
+              },
+              "touristType": ["Pilgrims", "Unique Experience Seekers"]
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Complete Palani Temple Tour Package – 2 Days 1 Night",
+        "description": "All-inclusive 2 Days 1 Night Palani temple tour package covering 8+ sacred tourist places including Palani Hill Temple, ancient temples, siddhar kovils and rare underground temple. Includes family hotel stay and pickup from railway junction or bus stand.",
+        "url": "https://www.krithiktoursandtravels.com/palani-tourist-places",
+        "brand": {
+          "@type": "Brand",
+          "name": "Krithik Tours and Travels"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@type": "TravelAgency",
+            "name": "Krithik Tours and Travels",
+            "url": "https://www.krithiktoursandtravels.com"
+          }
+        },
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Duration",
+            "value": "2 Days 1 Night"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Places Covered",
+            "value": "8+ Sacred Temples and Spiritual Sites in Palani"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Pickup Points",
+            "value": "Palani Railway Junction, Hotel, Bus Stand"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Accommodation",
+            "value": "Best Family Hotel in Palani, Tamil Nadu"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the best tourist places to visit in Palani?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The best tourist places in Palani include the famous Palani Hill Temple (Arulmigu Dhandayuthapani Swamy Temple), Thiruavinangudi Temple, Mariyamman Kovil, Periya Nayaki Amman Kovil, Periyaudaiyar Kovil, Saakkadai Sithar Kovil, Kannakampatti Sarguru Jeeva Samadhi, and the rare underground Rediyarchathiram Pathala Sembumruga Kovil."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the famous places near Palani for a one-day trip?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For a one-day trip near Palani, you can visit the Palani Murugan Temple, Thiruavinangudi Temple, and nearby temples. A 2-day tour package from Krithik Tours and Travels is recommended to fully experience all major Palani tourist places with comfortable accommodation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the best places to visit in Palani with family?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Palani is perfect for family visits. The Palani Hill Temple has a convenient rope car for elderly visitors and children. Periya Nayaki Amman Kovil offers a peaceful family-friendly atmosphere. The Periyaudaiyar Kovil and Thiruavinangudi Temple provide enriching cultural experiences for all age groups."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I reach Palani Hill Temple?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Palani Hill Temple can be accessed through three options: winch (mechanized lift), rope car (cable car), or by climbing 659 steps. Special darshan is also available for devotees."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many tourist places are covered in the Palani tour package?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Krithik Tours and Travels Palani tour package covers 8+ major tourist places including Palani Hill Temple, Thiruavinangudi Temple, Mariyamman Kovil, Periya Nayaki Amman Kovil, Periyaudaiyar Kovil, Saakkadai Sithar Kovil, Kannakampatti Sarguru Jeeva Samadhi, and the rare underground Rediyarchathiram Pathala Sembumruga Kovil in a 2 Days 1 Night itinerary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Palani famous for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Palani, located in Dindigul district, Tamil Nadu, is famous for the Arulmigu Dhandayuthapani Swamy Temple — one of the six Paadal Petra Sthalams (six abodes) of Lord Murugan. It attracts millions of pilgrims annually and is one of the most sacred pilgrimage destinations in South India."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there a unique underground temple near Palani?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The Rediyarchathiram Pathala Sembumruga Kovil is a rare underground Murugan temple near Palani, offering a unique spiritual experience not commonly found at other pilgrimage sites in Tamil Nadu."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How far is Palani from Coimbatore and Madurai?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Palani is located approximately 100 km from Coimbatore, 120 km from Madurai, and 65 km from Pollachi, making it easily accessible from major cities in Tamil Nadu."
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "Krithik Tours and Travels",
+        "slogan": "Commit to Comfort Travel",
+        "url": "https://www.krithiktoursandtravels.com",
+        "description": "Krithik Tours and Travels offers complete temple tour packages to Palani and other sacred destinations in Tamil Nadu with family accommodation and comfortable transportation.",
+        "areaServed": ["Palani", "Dindigul", "Tamil Nadu", "South India"],
+        "serviceType": ["Pilgrimage Tours", "Temple Tours", "Family Tour Packages"],
+        "knowsAbout": ["Palani Tourist Places", "Murugan Temples Tamil Nadu", "South India Pilgrimage Tours"]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.krithiktoursandtravels.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Palani Tourist Places",
+            "item": "https://www.krithiktoursandtravels.com/palani-tourist-places"
+          }
+        ]
+      }
+    ];
+
+    schemas.forEach((schema) => {
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.textContent = JSON.stringify(schema);
+      document.head.appendChild(script);
+    });
+
+    return () => {
+      const scripts = document.querySelectorAll('script[type="application/ld+json"]');
+      scripts.forEach(script => {
+        if (script.textContent.includes('Palani') || script.textContent.includes('krithiktoursandtravels')) {
+          script.remove();
+        }
+      });
+    };
+  }, []);
+
   // Structured Data for SEO and AI/LLM optimization
   const structuredData = {
     "@context": "https://schema.org",
