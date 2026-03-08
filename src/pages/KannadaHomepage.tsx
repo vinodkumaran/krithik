@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Calendar, FileText, Car, Bus, Instagram, Facebook, Youtube, MessageCircle, Hotel, Train, UtensilsCrossed, MapPinned } from 'lucide-react';
+import { MapPin, Phone, Mail, Calendar, FileText, Car, Bus, Instagram, Facebook, Youtube, MessageCircle, Hotel, Brain as Train, UtensilsCrossed, MapPinned } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import BookingModal from '../components/BookingModal';
