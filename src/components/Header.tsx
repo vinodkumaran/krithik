@@ -1,7 +1,15 @@
-import { Menu, Mountain, BookOpen } from 'lucide-react';
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Menu, Mountain, BookOpen, Globe, ChevronDown } from 'lucide-react';
+import { useState, useRef, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import MobileMenu from './MobileMenu';
+
+const languages = [
+  { code: 'en', label: 'EN', name: 'English', path: '/' },
+  { code: 'ta', label: 'தமிழ்', name: 'Tamil', path: '/tamil' },
+  { code: 'hi', label: 'हिन्दी', name: 'Hindi', path: '/hindi' },
+  { code: 'te', label: 'తెలుగు', name: 'Telugu', path: '/telugu' },
+  { code: 'kn', label: 'ಕನ್ನಡ', name: 'Kannada', path: '/kannada' },
+];
 
 interface HeaderProps {
   isDestinationPage?: boolean;
@@ -9,6 +17,21 @@ interface HeaderProps {
 
 export default function Header({ isDestinationPage = false }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
+  const langRef = useRef<HTMLDivElement>(null);
+  const location = useLocation();
+
+  const activeLang = languages.find(l => l.path === location.pathname) || languages[0];
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (langRef.current && !langRef.current.contains(e.target as Node)) {
+        setLangOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   return (
     <>
@@ -24,6 +47,39 @@ export default function Header({ isDestinationPage = false }: HeaderProps) {
             </a>
 
             <div className="flex items-center gap-4">
+              {/* Language Switcher — visible on both mobile and desktop */}
+              <div ref={langRef} className="relative">
+                <button
+                  onClick={() => setLangOpen(prev => !prev)}
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors text-sm font-semibold text-gray-700"
+                  aria-label="Select language"
+                >
+                  <Globe size={16} className="text-green-600" />
+                  <span>{activeLang.label}</span>
+                  <ChevronDown size={14} className={`transition-transform duration-200 ${langOpen ? 'rotate-180' : ''}`} />
+                </button>
+
+                {langOpen && (
+                  <div className="absolute right-0 top-full mt-2 w-44 bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden z-50">
+                    {languages.map(lang => (
+                      <Link
+                        key={lang.code}
+                        to={lang.path}
+                        onClick={() => setLangOpen(false)}
+                        className={`flex items-center justify-between px-4 py-2.5 text-sm transition-colors hover:bg-green-50 ${
+                          activeLang.code === lang.code
+                            ? 'bg-green-50 text-green-700 font-bold'
+                            : 'text-gray-700'
+                        }`}
+                      >
+                        <span className="font-medium">{lang.label}</span>
+                        <span className="text-xs text-gray-400">{lang.name}</span>
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+
               {/* Desktop Navigation and Social Media Links */}
               <div className="hidden md:flex items-center gap-3">
                 <Link

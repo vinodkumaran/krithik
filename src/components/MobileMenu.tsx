@@ -1,6 +1,13 @@
 import { X, Phone, Car, Users, Bus, Globe, Mountain, BookOpen } from 'lucide-react';
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+
+const languages = [
+  { code: 'en', label: 'EN', name: 'English', path: '/' },
+  { code: 'ta', label: 'தமிழ்', name: 'Tamil', path: '/tamil' },
+  { code: 'hi', label: 'हिन्दी', name: 'Hindi', path: '/hindi' },
+  { code: 'te', label: 'తెలుగు', name: 'Telugu', path: '/telugu' },
+  { code: 'kn', label: 'ಕನ್ನಡ', name: 'Kannada', path: '/kannada' },
+];
 
 interface MobileMenuProps {
   isOpen: boolean;
@@ -8,11 +15,8 @@ interface MobileMenuProps {
 }
 
 function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
-  const [language, setLanguage] = useState<'EN' | 'TA'>('EN');
-
-  const toggleLanguage = () => {
-    setLanguage(prev => prev === 'EN' ? 'TA' : 'EN');
-  };
+  const location = useLocation();
+  const activeLang = languages.find(l => l.path === location.pathname) || languages[0];
 
   return (
     <>
@@ -37,14 +41,6 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             />
 
             <div className="flex items-center gap-3">
-              <button
-                onClick={toggleLanguage}
-                className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors text-sm font-medium"
-              >
-                <Globe size={16} />
-                {language}
-              </button>
-
               <button
                 onClick={onClose}
                 className="p-2 rounded-full bg-green-500 text-white hover:bg-green-600 transition-colors"
@@ -104,6 +100,29 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         </div>
 
         <div className="px-5 py-6">
+          <div className="mb-6 pb-5 border-b border-gray-200">
+            <div className="flex items-center gap-2 mb-3">
+              <Globe size={16} className="text-green-600" />
+              <span className="text-sm font-semibold text-gray-600">Select Language</span>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {languages.map(lang => (
+                <Link
+                  key={lang.code}
+                  to={lang.path}
+                  onClick={onClose}
+                  className={`px-3 py-1.5 rounded-full text-sm font-semibold transition-colors ${
+                    activeLang.code === lang.code
+                      ? 'bg-green-600 text-white shadow'
+                      : 'bg-gray-100 text-gray-700 hover:bg-green-50 hover:text-green-700'
+                  }`}
+                >
+                  {lang.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+
           <div className="mb-6 pb-4 border-b border-gray-200">
             <a
               href="tel:+918925001292"
