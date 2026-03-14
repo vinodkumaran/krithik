@@ -245,7 +245,7 @@ function KannadaHomepage() {
             <div className="space-y-4 md:space-y-8 animate-fade-in md:order-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-slide-up relative">
                 <span className="bg-gradient-to-r from-white via-yellow-100 to-white bg-clip-text text-transparent animate-shine bg-[length:200%_100%]">
-                  ದಕ್ಷಿಣ ಭಾರತ ಪರ್ಯಟನೆ ಮತ್ತು ಪ್ಯಾಕೇಜ್ 2026
+                  ತಮಿಳುನಾಡಿನಲ್ಲಿ ಪಳನಿ, ಕೊಡೈಕನಾಲ್ ಮತ್ತು ಯೆರ್ಕಾಡ್ ಸ್ಥಳಗಳನ್ನು ಒಳಗೊಂಡ ಪ್ರವಾಸ
                 </span>
               </h1>
 

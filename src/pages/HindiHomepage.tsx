@@ -245,7 +245,7 @@ function HindiHomepage() {
             <div className="space-y-4 md:space-y-8 animate-fade-in md:order-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-slide-up relative">
                 <span className="bg-gradient-to-r from-white via-yellow-100 to-white bg-clip-text text-transparent animate-shine bg-[length:200%_100%]">
-                  दक्षिण भारत पर्यटन और पैकेज 2026
+                  तमिलनाडु में पलनी, कोडईकनाल और येरकाड को शामिल करने वाली यात्रा
                 </span>
               </h1>
 

@@ -245,7 +245,7 @@ function TeluguHomepage() {
             <div className="space-y-4 md:space-y-8 animate-fade-in md:order-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-slide-up relative">
                 <span className="bg-gradient-to-r from-white via-yellow-100 to-white bg-clip-text text-transparent animate-shine bg-[length:200%_100%]">
-                  దక్షిణ భారత ప్రయాణాలు మరియు ప్యాకేజీలు 2026
+                  తమిళనాడులో పళని, కొడైకెనాల్ మరియు యేర్కాడ్ స్థలాలను కలుపుకున్న పర్యటన
                 </span>
               </h1>
 
