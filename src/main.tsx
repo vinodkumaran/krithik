@@ -31,6 +31,21 @@ import PalaniTouristPlaces from './pages/PalaniTouristPlaces.jsx';
 import ArupadaiVeeduTour from './pages/ArupadaiVeeduTour.tsx';
 import BlogIndex from './pages/BlogIndex.tsx';
 import PalaniTempleHistory from './pages/blog/PalaniTempleHistory.tsx';
+import KodaikanalTravelGuide from './pages/blog/KodaikanalTravelGuide.tsx';
+import YercaudTravelGuide from './pages/blog/YercaudTravelGuide.tsx';
+import MunnarTravelGuide from './pages/blog/MunnarTravelGuide.tsx';
+import KodaikanalTravelTips from './pages/blog/KodaikanalTravelTips.tsx';
+import MunnarTravelTips from './pages/blog/MunnarTravelTips.tsx';
+import AlleppeyHouseboatTips from './pages/blog/AlleppeyHouseboatTips.tsx';
+import MysoreTravelTips from './pages/blog/MysoreTravelTips.tsx';
+import KodaikanalHistory from './pages/blog/KodaikanalHistory.tsx';
+import MysoreHistory from './pages/blog/MysoreHistory.tsx';
+import MunnarHistoryCulture from './pages/blog/MunnarHistoryCulture.tsx';
+import AlleppeyHistory from './pages/blog/AlleppeyHistory.tsx';
+import Kodaikanal3Days from './pages/blog/Kodaikanal3Days.tsx';
+import Yercaud2Days from './pages/blog/Yercaud2Days.tsx';
+import AlleppeyHouseboat2Days from './pages/blog/AlleppeyHouseboat2Days.tsx';
+import Mysore3Days from './pages/blog/Mysore3Days.tsx';
 import './index.css';
 
 createRoot(document.getElementById('root')!).render(
@@ -67,6 +82,21 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/arupadai-veedu-murugan-temple-tour" element={<ArupadaiVeeduTour />} />
         <Route path="/blog" element={<BlogIndex />} />
         <Route path="/blog/palani-temple-history" element={<PalaniTempleHistory />} />
+        <Route path="/blog/hill-stations/kodaikanal-travel-guide" element={<KodaikanalTravelGuide />} />
+        <Route path="/blog/hill-stations/yercaud-travel-guide" element={<YercaudTravelGuide />} />
+        <Route path="/blog/hill-stations/munnar-travel-guide" element={<MunnarTravelGuide />} />
+        <Route path="/blog/travel-tips/kodaikanal-travel-tips" element={<KodaikanalTravelTips />} />
+        <Route path="/blog/travel-tips/munnar-travel-tips" element={<MunnarTravelTips />} />
+        <Route path="/blog/travel-tips/alleppey-houseboat-tips" element={<AlleppeyHouseboatTips />} />
+        <Route path="/blog/travel-tips/mysore-travel-tips" element={<MysoreTravelTips />} />
+        <Route path="/blog/history-culture/kodaikanal-history" element={<KodaikanalHistory />} />
+        <Route path="/blog/history-culture/mysore-history" element={<MysoreHistory />} />
+        <Route path="/blog/history-culture/munnar-history-culture" element={<MunnarHistoryCulture />} />
+        <Route path="/blog/history-culture/alleppey-history" element={<AlleppeyHistory />} />
+        <Route path="/blog/itineraries/kodaikanal-3-days-2-nights-itinerary" element={<Kodaikanal3Days />} />
+        <Route path="/blog/itineraries/yercaud-2-days-1-night-itinerary" element={<Yercaud2Days />} />
+        <Route path="/blog/itineraries/alleppey-houseboat-2-days-1-night" element={<AlleppeyHouseboat2Days />} />
+        <Route path="/blog/itineraries/mysore-3-days-itinerary" element={<Mysore3Days />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
