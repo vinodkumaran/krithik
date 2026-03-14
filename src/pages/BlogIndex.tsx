@@ -63,7 +63,7 @@ export default function BlogIndex() {
             {filtered.map((post) => (
               <Link
                 key={post.slug}
-                to={`/blog/${post.slug}`}
+                to={post.path ?? `/blog/${post.slug}`}
                 className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col"
               >
                 <div className="relative h-52 overflow-hidden">
