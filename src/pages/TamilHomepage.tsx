@@ -205,7 +205,7 @@ function TamilHomepage() {
                   />
                   <div className="p-4">
                     <h3 className="font-bold text-lg">Munnar</h3>
-                    <p className="text-sm text-green-100">தங்கும் இடம் + ஓட்டுநர் சேர்க்கப்பட்டுள்ளது</p>
+                    <p className="text-sm text-green-100">தங்குமிடம் + car பயணம்</p>
                   </div>
                 </button>
               </div>
@@ -235,7 +235,7 @@ function TamilHomepage() {
                   />
                   <div className="p-4">
                     <h3 className="font-bold text-lg">Ooty</h3>
-                    <p className="text-sm text-green-100">தங்கும் இடம் + ஓட்டுநர் சேர்க்கப்பட்டுள்ளது</p>
+                    <p className="text-sm text-green-100">தங்குமிடம் + car பயணம்</p>
                   </div>
                 </button>
               </div>
@@ -245,12 +245,9 @@ function TamilHomepage() {
             <div className="space-y-4 md:space-y-8 animate-fade-in md:order-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-slide-up relative">
                 <span className="bg-gradient-to-r from-white via-yellow-100 to-white bg-clip-text text-transparent animate-shine bg-[length:200%_100%]">
-                  தெற்கு இந்தியா சுற்றுலா மற்றும் சுற்றுலா 2026
+                  தமிழ்நாட்டில் பழனி, கொடைக்கானல் மற்றும் ஏற்காடு ஆகிய இடங்களை உள்ளடக்கிய சுற்றுலா
                 </span>
               </h1>
-              <p className="text-lg md:text-xl text-green-100 mt-2">
-                தமிழ்நாட்டில் பழனி, கொடைக்கானல் மற்றும் ஏற்காடு ஆகிய இடங்களை உள்ளடக்கிய சுற்றுலா
-              </p>
 
               {/* Service Icons */}
               <div className="flex flex-wrap items-center justify-start gap-2 md:gap-6 py-2 md:py-4">
@@ -325,7 +322,7 @@ function TamilHomepage() {
               />
               <div className="p-2">
                 <h3 className="font-bold text-base">Munnar</h3>
-                <p className="text-xs text-green-100">தங்கும் இடம் + ஓட்டுநர் சேர்க்கப்பட்டுள்ளது</p>
+                <p className="text-xs text-green-100">தங்குமிடம் + car பயணம்</p>
               </div>
             </button>
             <button
@@ -339,7 +336,7 @@ function TamilHomepage() {
               />
               <div className="p-2">
                 <h3 className="font-bold text-base">Ooty</h3>
-                <p className="text-xs text-green-100">தங்கும் இடம் + ஓட்டுநர் சேர்க்கப்பட்டுள்ளது</p>
+                <p className="text-xs text-green-100">தங்குமிடம் + car பயணம்</p>
               </div>
             </button>
           </div>
