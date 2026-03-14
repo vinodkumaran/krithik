@@ -83,6 +83,16 @@ export default function PalaniHistory() {
       title="History of Palani Temple: The Sacred Story of Lord Murugan"
       description="Discover the ancient legends, architectural heritage, and spiritual significance of Palani Murugan Temple."
       schemaMarkup={schemaMarkup}
+      additionalSchemas={[
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
+            { '@type': 'ListItem', position: 2, name: 'Palani History & Temple History', item: 'https://www.krithiktravels.com/palani-history-temple-history' },
+          ],
+        },
+      ]}
     >
       <div className="space-y-6">
         <img

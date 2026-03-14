@@ -83,6 +83,16 @@ export default function NRISouthIndiaTour() {
       title="NRI South India Tour: Pickup, Star Hotels & Complete Guided Travel"
       description="Experience hassle-free South India travel with complete airport pickup, premium accommodations, and expert guidance."
       schemaMarkup={schemaMarkup}
+      additionalSchemas={[
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
+            { '@type': 'ListItem', position: 2, name: 'NRI South India Tour with Ooty Pickup & Drop', item: 'https://www.krithiktravels.com/nri-south-india-tour-pickup-drop-ooty' },
+          ],
+        },
+      ]}
     >
       <div className="space-y-6">
         <img

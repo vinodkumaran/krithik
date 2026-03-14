@@ -7,15 +7,23 @@ interface BlogLayoutProps {
   title: string;
   description: string;
   schemaMarkup: string;
+  additionalSchemas?: object[];
 }
 
-export default function BlogLayout({ children, title, description, schemaMarkup }: BlogLayoutProps) {
+export default function BlogLayout({ children, title, description, schemaMarkup, additionalSchemas }: BlogLayoutProps) {
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: schemaMarkup }}
       />
+      {additionalSchemas?.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">
         <header className="bg-white shadow-md sticky top-0 z-50">
           <div className="container mx-auto px-4 py-4">

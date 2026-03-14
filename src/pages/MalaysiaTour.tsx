@@ -82,6 +82,16 @@ export default function MalaysiaTour() {
       title="Malaysia to South India Tour: Heritage, Hills & Spiritual Trails"
       description="Experience the cultural connection between Malaysia and South India with curated temple tours, hill stations, and heritage destinations."
       schemaMarkup={schemaMarkup}
+      additionalSchemas={[
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
+            { '@type': 'ListItem', position: 2, name: 'Malaysia to South India Tour Package', item: 'https://www.krithiktravels.com/malaysia-to-south-india-tour-package' },
+          ],
+        },
+      ]}
     >
       <div className="space-y-6">
         <img

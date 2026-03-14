@@ -83,6 +83,16 @@ export default function KodaikanalTrip() {
       title="Kodaikanal Two Days Trip: Discover the Princess of Hill Stations"
       description="Explore Kodaikanal's misty valleys, colonial heritage, and natural beauty with a complete 2-day travel guide."
       schemaMarkup={schemaMarkup}
+      additionalSchemas={[
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
+            { '@type': 'ListItem', position: 2, name: 'Kodaikanal Two Days Trip', item: 'https://www.krithiktravels.com/kodaikanal-two-days-trip' },
+          ],
+        },
+      ]}
     >
       <div className="space-y-6">
         <img

@@ -83,6 +83,16 @@ export default function PalaniTempleTrip() {
       title="Palani Temple One Day Trip: A Sacred Journey to Lord Murugan's Hill Shrine"
       description="Discover the spiritual journey to Palani Murugan Temple with complete travel guide, rituals, and darshan details."
       schemaMarkup={schemaMarkup}
+      additionalSchemas={[
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
+            { '@type': 'ListItem', position: 2, name: 'Palani Temple One Day Trip', item: 'https://www.krithiktravels.com/palani-temple-one-day-trip' },
+          ],
+        },
+      ]}
     >
       <div className="space-y-6">
         <img

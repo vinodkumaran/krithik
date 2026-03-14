@@ -83,6 +83,16 @@ export default function CoimbatoreMarudhamalai() {
       title="Coimbatore & Marudhamalai One Day Trip: Spirituality Meets City Life"
       description="Explore the sacred Marudhamalai Temple and vibrant Coimbatore city in a perfectly planned one-day journey."
       schemaMarkup={schemaMarkup}
+      additionalSchemas={[
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
+            { '@type': 'ListItem', position: 2, name: 'Coimbatore Marudhamalai One Day Trip', item: 'https://www.krithiktravels.com/coimbatore-marudhamalai-one-day-trip' },
+          ],
+        },
+      ]}
     >
       <div className="space-y-6">
         <img

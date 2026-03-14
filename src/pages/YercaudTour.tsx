@@ -83,6 +83,16 @@ export default function YercaudTour() {
       title="Yercaud Tour Package: A Peaceful Hill Escape with a Perfect Itinerary"
       description="Experience the serene beauty of Yercaud with a complete tour package covering coffee estates, viewpoints, and botanical gardens."
       schemaMarkup={schemaMarkup}
+      additionalSchemas={[
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
+            { '@type': 'ListItem', position: 2, name: 'Yercaud Tour Package Itinerary', item: 'https://www.krithiktravels.com/yercaud-tour-package-itinerary' },
+          ],
+        },
+      ]}
     >
       <div className="space-y-6">
         <img

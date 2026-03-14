@@ -51,8 +51,34 @@ export default function DestinationPage({
 }: DestinationPageProps) {
   const [bookingModalOpen, setBookingModalOpen] = useState(false);
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
+      { '@type': 'ListItem', position: 2, name: destination.title, item: `https://www.krithiktravels.com${window.location.pathname}` },
+    ],
+  };
+
+  const webPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'TouristTrip',
+    name: destination.title,
+    description: destination.description,
+    image: `https://www.krithiktravels.com${destination.image}`,
+    provider: {
+      '@type': 'TravelAgency',
+      name: 'Krithik Tours & Travels',
+      url: 'https://www.krithiktravels.com/',
+      telephone: '+918925001292',
+    },
+    touristType: ['Family', 'Pilgrims', 'Groups'],
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
       <Header isDestinationPage={true} />
 
       <main className="container mx-auto px-4 py-12">

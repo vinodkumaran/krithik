@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage / English -->
+  <url>
+    <loc>https://www.krithiktravels.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.krithiktravels.com/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.krithiktravels.com/tamil"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.krithiktravels.com/hindi"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://www.krithiktravels.com/telugu"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://www.krithiktravels.com/kannada"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.krithiktravels.com/"/>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Language Homepages -->
+  <url>
+    <loc>https://www.krithiktravels.com/tamil</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.krithiktravels.com/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.krithiktravels.com/tamil"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.krithiktravels.com/hindi"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://www.krithiktravels.com/telugu"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://www.krithiktravels.com/kannada"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.krithiktravels.com/"/>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/hindi</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.krithiktravels.com/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.krithiktravels.com/tamil"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.krithiktravels.com/hindi"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://www.krithiktravels.com/telugu"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://www.krithiktravels.com/kannada"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.krithiktravels.com/"/>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/telugu</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.krithiktravels.com/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.krithiktravels.com/tamil"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.krithiktravels.com/hindi"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://www.krithiktravels.com/telugu"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://www.krithiktravels.com/kannada"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.krithiktravels.com/"/>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/kannada</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.krithiktravels.com/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://www.krithiktravels.com/tamil"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.krithiktravels.com/hindi"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://www.krithiktravels.com/telugu"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://www.krithiktravels.com/kannada"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.krithiktravels.com/"/>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Service Pages -->
+  <url>
+    <loc>https://www.krithiktravels.com/hire</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/customer-testimonials</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/videos</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Palani Pages -->
+  <url>
+    <loc>https://www.krithiktravels.com/palani-tourist-places</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/palani-temple-one-day-trip</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/palani-one-day-temple-trip</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/palani-history-temple-history</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/arupadai-veedu-murugan-temple-tour</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/coimbatore-marudhamalai-one-day-trip</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/pilgrimage-special-tour-malaysia-singapore-nri</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Hill Station Tours -->
+  <url>
+    <loc>https://www.krithiktravels.com/kodaikanal-two-days-trip</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/kodaikanal-2-day-sightseeing-itinerary</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/yercaud-tour-package-itinerary</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/yercaud-hill-station-tour-itinerary</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/ooty-hill-station-itinerary</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/valparai-tea-estate-sightseeing-tour</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/coorg-coffee-estate-tour-plan</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Kerala & Nature Tours -->
+  <url>
+    <loc>https://www.krithiktravels.com/alleppey-overnight-houseboat-stay</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/munnar-nature-tour-itinerary</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Heritage Tours -->
+  <url>
+    <loc>https://www.krithiktravels.com/mysore-heritage-tour-itinerary</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- NRI / International Tours -->
+  <url>
+    <loc>https://www.krithiktravels.com/nri-south-india-tour-pickup-drop-ooty</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/malaysia-to-south-india-tour-package</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/singapore-to-south-india-tour-package</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog Index -->
+  <url>
+    <loc>https://www.krithiktravels.com/blog</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: Temple History -->
+  <url>
+    <loc>https://www.krithiktravels.com/blog/palani-temple-history</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: Hill Station Guides -->
+  <url>
+    <loc>https://www.krithiktravels.com/blog/hill-stations/kodaikanal-travel-guide</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/blog/hill-stations/yercaud-travel-guide</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/blog/hill-stations/munnar-travel-guide</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: Travel Tips -->
+  <url>
+    <loc>https://www.krithiktravels.com/blog/travel-tips/kodaikanal-travel-tips</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/blog/travel-tips/munnar-travel-tips</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/blog/travel-tips/alleppey-houseboat-tips</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/blog/travel-tips/mysore-travel-tips</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog: History & Culture -->
+  <url>
+    <loc>https://www.krithiktravels.com/blog/history-culture/kodaikanal-history</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/blog/history-culture/mysore-history</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/blog/history-culture/munnar-history-culture</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/blog/history-culture/alleppey-history</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog: Itineraries -->
+  <url>
+    <loc>https://www.krithiktravels.com/blog/itineraries/kodaikanal-3-days-2-nights-itinerary</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/blog/itineraries/yercaud-2-days-1-night-itinerary</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/blog/itineraries/alleppey-houseboat-2-days-1-night</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.krithiktravels.com/blog/itineraries/mysore-3-days-itinerary</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
