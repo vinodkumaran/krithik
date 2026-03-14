@@ -9,7 +9,7 @@ const schema = {
       "@type": "Article",
       "headline": "Kodaikanal Travel Guide: Best Hill Station in Tamil Nadu",
       "description": "Discover Kodaikanal — the Princess of Hill Stations at 2,133m in Tamil Nadu. Explore top 10 attractions, best time to visit, how to reach, and local food. Call 8925001292.",
-      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200",
+      "image": "https://www.krithiktours.com/Kodaikanal.jpg",
       "author": { "@type": "Organization", "name": "Krithik Tours and Travels" },
       "publisher": { "@type": "Organization", "name": "Krithik Tours and Travels" },
       "datePublished": "2025-01-01",
@@ -51,7 +51,7 @@ export default function KodaikanalTravelGuide() {
 
       <section className="relative h-[420px] md:h-[520px] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=675&fit=crop"
+          src="/Kodaikanal.jpg"
           alt="Kodaikanal lake aerial drone view Tamil Nadu hill station"
           title="Kodaikanal Lake — Princess of Hill Stations"
           loading="lazy"
@@ -101,7 +101,7 @@ export default function KodaikanalTravelGuide() {
             Historical Background of Kodaikanal
           </h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Long before the British arrived, the <strong>Palaiyar and Pulayar tribes</strong> inhabited the dense Palani forests, living in harmony with the rich biodiversity of the hills. The recorded modern history of Kodaikanal begins in <strong>1845</strong>, when <strong>American Madura Mission missionaries</strong> — seeking relief from the scorching plains of Madurai — established a health retreat on these heights. The name "Kodai" is derived from the Tamil word meaning <em>"gift"</em>, while "kanal\" means <em>"forest"</em> — together: "Gift of the Forest."
+            Long before the British arrived, the <strong>Palaiyar and Pulayar tribes</strong> inhabited the dense Palani forests, living in harmony with the rich biodiversity of the hills. The recorded modern history of Kodaikanal begins in <strong>1845</strong>, when <strong>American Madura Mission missionaries</strong> — seeking relief from the scorching plains of Madurai — established a health retreat on these heights. The name "Kodai" is derived from the Tamil word meaning <em>"gift"</em>, while "kanal\" means <em>\"forest"</em> — together: "Gift of the Forest."
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             The town grew steadily under British patronage through the 1860s. In <strong>1863</strong>, the Collector of Madurai, <strong>Sir Vere Henry Levinge</strong>, ordered the construction of the now-iconic Kodaikanal Lake — an artificial star-shaped reservoir spread across 60 acres. Coaker's Walk, one of the most beloved viewpoints, was built in <strong>1872</strong> by <strong>Lieutenant Coaker</strong> of the British Civil Service. The Kodaikanal School, established in <strong>1901</strong>, is one of the oldest residential schools in India. By the early 20th century, Kodaikanal had become the preferred summer retreat for British officials from across South India.
@@ -114,7 +114,7 @@ export default function KodaikanalTravelGuide() {
 
           <figure className="my-8">
             <img
-              src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=675&fit=crop"
+              src="/Pillar_Rock_Kodaikanal.jpg"
               alt="Kodaikanal Pillar Rocks viewpoint Tamil Nadu hill station scenic view"
               title="Pillar Rocks, Kodaikanal"
               loading="lazy"
@@ -122,7 +122,7 @@ export default function KodaikanalTravelGuide() {
               height="675"
               className="w-full rounded-xl shadow"
             />
-            <figcaption className="text-sm text-gray-500 text-center mt-2">Scenic valleys of Kodaikanal | Source: Unsplash</figcaption>
+            <figcaption className="text-sm text-gray-500 text-center mt-2">Pillar Rocks, Kodaikanal — one of the most dramatic viewpoints in Tamil Nadu</figcaption>
           </figure>
 
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 mt-10 border-b-2 border-green-200 pb-2">
@@ -205,7 +205,7 @@ export default function KodaikanalTravelGuide() {
 
           <figure className="my-8">
             <img
-              src="https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?w=1200&h=675&fit=crop"
+              src="/Kodaikanal.jpg"
               alt="Kodaikanal misty mountain view Tamil Nadu travel guide"
               title="Misty hills of Kodaikanal"
               loading="lazy"
@@ -213,7 +213,7 @@ export default function KodaikanalTravelGuide() {
               height="675"
               className="w-full rounded-xl shadow"
             />
-            <figcaption className="text-sm text-gray-500 text-center mt-2">Misty mountains of South India | Source: Pexels</figcaption>
+            <figcaption className="text-sm text-gray-500 text-center mt-2">The iconic Kodaikanal landscape — mist-draped hills and lush valleys</figcaption>
           </figure>
 
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 mt-10 border-b-2 border-green-200 pb-2">
@@ -246,7 +246,7 @@ export default function KodaikanalTravelGuide() {
 
           <figure className="my-8">
             <img
-              src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&h=675&fit=crop"
+              src="/Pillar_Rock_Kodaikanal.jpg"
               alt="Kodaikanal green valley forest landscape Tamil Nadu"
               title="Green forests of Kodaikanal"
               loading="lazy"
@@ -254,7 +254,7 @@ export default function KodaikanalTravelGuide() {
               height="675"
               className="w-full rounded-xl shadow"
             />
-            <figcaption className="text-sm text-gray-500 text-center mt-2">Green valleys and shola forests of Kodaikanal | Source: Unsplash</figcaption>
+            <figcaption className="text-sm text-gray-500 text-center mt-2">Pillar Rocks and valley views — Kodaikanal's signature scenery</figcaption>
           </figure>
 
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 mt-10 border-b-2 border-green-200 pb-2">
