@@ -202,6 +202,10 @@ function App() {
                 </span>
               </h1>
 
+              <p className="text-base md:text-lg text-green-100 leading-relaxed animate-slide-up">
+                தமிழ்நாட்டில் பழனி, கொடைக்கானல் மற்றும் ஏற்காடு ஆகிய இடங்களை உள்ளடக்கிய சுற்றுலா
+              </p>
+
               {/* Service Icons */}
               <div className="flex flex-wrap items-center justify-start gap-2 md:gap-6 py-2 md:py-4">
                 <div className="group">
