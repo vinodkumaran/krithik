@@ -10,7 +10,7 @@ export default function PalaniTempleHistory() {
       {/* Hero */}
       <section className="relative h-[420px] md:h-[520px] overflow-hidden">
         <img
-          src="https://images.pexels.com/photos/3881104/pexels-photo-3881104.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          src="/palani.jpg"
           alt="Palani Temple"
           className="w-full h-full object-cover"
         />

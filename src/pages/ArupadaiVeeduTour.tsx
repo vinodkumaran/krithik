@@ -52,42 +52,42 @@ const temples = [
     name: 'Palani Murugan Temple',
     location: 'Palani, Dindigul District',
     day: 'Day 1',
-    image: 'https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '/palani.jpg',
     desc: 'One of the most visited pilgrimage centres in India, perched atop Sivagiri Hill. Accessible by rope car, winch, or 659 steps.',
   },
   {
     name: 'Pazhamudircholai',
     location: 'Alagar Koil Road, Madurai',
     day: 'Day 1',
-    image: 'https://images.pexels.com/photos/3881104/pexels-photo-3881104.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '/palani.jpg',
     desc: 'The only Arupadai Veedu located in a forest setting, nestled amid the lush Alagar Hills near Madurai.',
   },
   {
     name: 'Thiruparankundram',
     location: 'Thiruparankundram, Madurai',
     day: 'Day 1',
-    image: 'https://images.pexels.com/photos/5458388/pexels-photo-5458388.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '/palani.jpg',
     desc: 'A rock-cut cave temple dating back to the Pandya era, believed to be the site of Lord Murugan\'s divine wedding.',
   },
   {
     name: 'Thiruchendur Murugan Temple',
     location: 'Thiruchendur, Thoothukudi District',
     day: 'Day 2',
-    image: 'https://images.pexels.com/photos/4916461/pexels-photo-4916461.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '/palani.jpg',
     desc: 'The only Arupadai Veedu situated on the seashore. The sight of the temple against the Bay of Bengal is unforgettable.',
   },
   {
     name: 'Swamimalai Murugan Temple',
     location: 'Swamimalai, Kumbakonam',
     day: 'Day 2',
-    image: 'https://images.pexels.com/photos/3825580/pexels-photo-3825580.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '/palani.jpg',
     desc: 'Where Murugan taught the meaning of the Pranava mantra (Om) to Lord Shiva — hence the name Swaminatha (teacher of the father).',
   },
   {
     name: 'Tiruttani Murugan Temple',
     location: 'Tiruttani, Tiruvallur District',
     day: 'Day 3',
-    image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '/palani.jpg',
     desc: 'The final stop on the Arupadai Veedu circuit, situated atop Tiruttani Hill. Believe to grant relief from the malefic effects of Rahu and Ketu.',
   },
 ];
@@ -204,7 +204,7 @@ export default function ArupadaiVeeduTour() {
       {/* Hero */}
       <section className="relative h-[420px] md:h-[540px] overflow-hidden">
         <img
-          src="https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          src="/palani.jpg"
           alt="Arupadai Veedu Murugan Temple Tour"
           className="w-full h-full object-cover"
         />
