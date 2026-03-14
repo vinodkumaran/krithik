@@ -605,56 +605,64 @@ const PalaniTouristPlaces = () => {
       fullName: "Arulmigu Dhandayuthapani Swamy Temple",
       description: "Early morning darshan of Lord Murugan at the famous Palani Hill Temple, one of the six abodes of Lord Murugan",
       features: ["Winch Access", "Rope Car", "Steps", "Special Darshan Available"],
-      timing: "Early Morning"
+      timing: "Early Morning",
+      image: "https://images.pexels.com/photos/14353572/pexels-photo-14353572.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
       id: 2,
       name: "Thiruavinangudi Temple",
       description: "Ancient Murugan temple with rich historical significance",
       features: ["Ancient Architecture", "Historical Importance"],
-      category: "Ancient Temple"
+      category: "Ancient Temple",
+      image: "https://images.pexels.com/photos/10271157/pexels-photo-10271157.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
       id: 3,
       name: "Mariyamman Kovil",
       description: "Temple dedicated to Goddess Mariyamman for protective blessings",
       features: ["Protective Blessings", "Divine Energy"],
-      category: "Amman Temple"
+      category: "Amman Temple",
+      image: "https://images.pexels.com/photos/6416960/pexels-photo-6416960.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
       id: 4,
       name: "Periya Nayaki Amman Kovil",
       description: "Peaceful temple with divine ambience, perfect for meditation",
       features: ["Peaceful Atmosphere", "Family-Friendly"],
-      category: "Amman Temple"
+      category: "Amman Temple",
+      image: "https://images.pexels.com/photos/12475522/pexels-photo-12475522.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
       id: 5,
       name: "Periyaudaiyar Kovil",
       description: "Historic Shiva temple showcasing ancient Tamil architecture",
       features: ["Historic Architecture", "Spiritual Significance"],
-      category: "Shiva Temple"
+      category: "Shiva Temple",
+      image: "https://images.pexels.com/photos/7915949/pexels-photo-7915949.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
       id: 6,
       name: "Saakkadai Sithar Kovil",
       description: "Siddhar temple known for healing vibrations and spiritual energy",
       features: ["Healing Vibrations", "Meditation", "Spiritual Energy"],
-      category: "Siddhar Temple"
+      category: "Siddhar Temple",
+      image: "https://images.pexels.com/photos/5124396/pexels-photo-5124396.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
       id: 7,
       name: "Kannakampatti Sarguru Jeeva Samadhi",
       description: "Meditation-friendly samadhi site with peaceful environment",
       features: ["Meditation-Friendly", "Peaceful", "Spiritual"],
-      category: "Samadhi"
+      category: "Samadhi",
+      image: "https://images.pexels.com/photos/10070972/pexels-photo-10070972.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
       id: 8,
       name: "Rediyarchathiram Pathala Sembumruga Kovil",
       description: "Rare underground Murugan temple, a unique spiritual experience",
       features: ["Underground Temple", "Rare Experience", "Unique Architecture"],
-      category: "Unique Temple"
+      category: "Unique Temple",
+      image: "https://images.pexels.com/photos/29082079/pexels-photo-29082079.jpeg?auto=compress&cs=tinysrgb&w=800"
     }
   ];
 
@@ -1007,9 +1015,26 @@ const PalaniTouristPlaces = () => {
             box-shadow: 0 15px 50px rgba(27, 122, 92, 0.2);
           }
 
+          .place-image-wrap {
+            position: relative;
+            height: 200px;
+            overflow: hidden;
+          }
+
+          .place-image-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+          }
+
+          .place-card:hover .place-image-wrap img {
+            transform: scale(1.07);
+          }
+
           .place-header {
             background: linear-gradient(135deg, #1b7a5c 0%, #25956f 100%);
-            padding: 25px;
+            padding: 20px 25px;
             position: relative;
             overflow: hidden;
           }
@@ -1026,9 +1051,9 @@ const PalaniTouristPlaces = () => {
 
           .place-number {
             position: absolute;
-            top: 15px;
+            top: -20px;
             right: 15px;
-            background: rgba(255, 255, 255, 0.25);
+            background: #1b7a5c;
             color: white;
             width: 40px;
             height: 40px;
@@ -1038,12 +1063,14 @@ const PalaniTouristPlaces = () => {
             justify-content: center;
             font-weight: 700;
             font-size: 1.1rem;
-            border: 2px solid rgba(255, 255, 255, 0.4);
+            border: 3px solid white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            z-index: 3;
           }
 
           .place-name {
             font-family: 'Playfair Display', serif;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             color: white;
             margin-bottom: 5px;
             font-weight: 700;
@@ -1052,7 +1079,7 @@ const PalaniTouristPlaces = () => {
           }
 
           .place-fullname {
-            font-size: 0.85rem;
+            font-size: 0.82rem;
             color: rgba(255, 255, 255, 0.9);
             font-style: italic;
             position: relative;
@@ -1061,11 +1088,12 @@ const PalaniTouristPlaces = () => {
 
           .place-highlight {
             position: absolute;
-            top: 15px;
-            left: 15px;
-            background: #2eaa82;
+            top: 12px;
+            left: 12px;
+            background: rgba(0,0,0,0.45);
+            backdrop-filter: blur(4px);
             color: white;
-            padding: 6px 14px;
+            padding: 5px 12px;
             border-radius: 20px;
             font-size: 0.75rem;
             font-weight: 600;
@@ -1436,12 +1464,15 @@ const PalaniTouristPlaces = () => {
             <div className="places-grid">
               {touristPlaces.map((place) => (
                 <article key={place.id} className="place-card">
-                  {place.highlight && (
-                    <div className="place-highlight">
-                      <Star size={14} />
-                      {place.highlight}
-                    </div>
-                  )}
+                  <div className="place-image-wrap">
+                    <img src={place.image} alt={place.name} loading="lazy" />
+                    {place.highlight && (
+                      <div className="place-highlight">
+                        <Star size={14} />
+                        {place.highlight}
+                      </div>
+                    )}
+                  </div>
                   <div className="place-header">
                     <div className="place-number">{place.id}</div>
                     <h3 className="place-name">{place.name}</h3>
