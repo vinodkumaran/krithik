@@ -265,7 +265,7 @@ function HireCab() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-12">
+      <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
@@ -274,51 +274,51 @@ function HireCab() {
                 alt="Krithik Tours & Travels"
                 className="h-16 mb-4 brightness-0 invert"
               />
-              <p className="text-gray-300">
+              <p className="footer-body-text">
                 Commit to Comfort Travel. Your trusted travel partner for unforgettable journeys.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-4">Contact Us</h3>
+              <h3 className="text-xl font-bold mb-4 footer-heading">Contact Us</h3>
               <div className="space-y-3">
                 <a
                   href={whatsappLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-gray-300 hover:text-white transition-colors"
+                  className="footer-link"
                 >
-                  <Phone size={20} className="mr-3" />
+                  <Phone size={20} className="mr-3 footer-icon" />
                   +91 89250 01292
                 </a>
                 <a
                   href="mailto:info@krithiktravels.com"
-                  className="flex items-center text-gray-300 hover:text-white transition-colors"
+                  className="footer-link"
                 >
-                  <Mail size={20} className="mr-3" />
+                  <Mail size={20} className="mr-3 footer-icon" />
                   info@krithiktravels.com
                 </a>
                 <a
                   href="https://share.google/7d6cvuPYRa27zVHO2"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-gray-300 hover:text-white transition-colors"
+                  className="footer-link"
                 >
-                  <MapPin size={20} className="mr-3" />
+                  <MapPin size={20} className="mr-3 footer-icon" />
                   View on Google Maps
                 </a>
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-4">Quick Links</h3>
+              <h3 className="text-xl font-bold mb-4 footer-heading">Quick Links</h3>
               <ul className="space-y-2">
-                <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Home</a></li>
-                <li><button onClick={() => handleBooking('Cab Hire')} className="text-gray-300 hover:text-white transition-colors">Book Now</button></li>
-                <li><a href="https://share.google/7d6cvuPYRa27zVHO2" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                <li><a href="/" className="footer-link">Home</a></li>
+                <li><button onClick={() => handleBooking('Cab Hire')} className="footer-link">Book Now</button></li>
+                <li><a href="https://share.google/7d6cvuPYRa27zVHO2" target="_blank" rel="noopener noreferrer" className="footer-link">Contact</a></li>
               </ul>
             </div>
           </div>
-          <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Krithik Tours & Travels. All rights reserved.</p>
+          <div className="border-t footer-divider pt-8 text-center">
+            <p className="footer-copyright">&copy; 2025 Krithik Tours & Travels. All rights reserved.</p>
           </div>
         </div>
       </footer>

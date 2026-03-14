@@ -617,7 +617,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-12">
+      <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
             <div>
@@ -626,84 +626,84 @@ function App() {
                 alt="Krithik Tours & Travels"
                 className="h-16 mb-4 brightness-0 invert"
               />
-              <p className="text-gray-300">
+              <p className="footer-body-text">
                 Commit to Comfort Travel. Your trusted travel partner for unforgettable journeys.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-4">Contact Us</h3>
+              <h3 className="text-xl font-bold mb-4 footer-heading">Contact Us</h3>
               <div className="space-y-3">
                 <a
                   href={whatsappLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-gray-300 hover:text-white transition-colors"
+                  className="footer-link"
                 >
-                  <Phone size={20} className="mr-3" />
+                  <Phone size={20} className="mr-3 footer-icon" />
                   +91 89250 01292
                 </a>
                 <a
                   href="mailto:krithiktravels2607@gmail.com"
-                  className="flex items-center text-gray-300 hover:text-white transition-colors"
+                  className="footer-link"
                 >
-                  <Mail size={20} className="mr-3" />
+                  <Mail size={20} className="mr-3 footer-icon" />
                   krithiktravels2607@gmail.com
                 </a>
                 <a
                   href="https://share.google/7d6cvuPYRa27zVHO2"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-gray-300 hover:text-white transition-colors"
+                  className="footer-link"
                 >
-                  <MapPin size={20} className="mr-3" />
+                  <MapPin size={20} className="mr-3 footer-icon" />
                   View on Google Maps
                 </a>
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-4">Follow Us</h3>
+              <h3 className="text-xl font-bold mb-4 footer-heading">Follow Us</h3>
               <div className="space-y-3">
                 <a
                   href="https://www.instagram.com/krithik_tours_travels_palani/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-gray-300 hover:text-pink-400 transition-colors"
+                  className="footer-link"
                 >
-                  <Instagram size={20} className="mr-3" />
+                  <Instagram size={20} className="mr-3 footer-icon" />
                   Instagram
                 </a>
                 <a
                   href="https://www.facebook.com/krithiktoursandtravels/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-gray-300 hover:text-blue-400 transition-colors"
+                  className="footer-link"
                 >
-                  <Facebook size={20} className="mr-3" />
+                  <Facebook size={20} className="mr-3 footer-icon" />
                   Facebook
                 </a>
                 <a
                   href="https://www.youtube.com/@KrithikToursTravels"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-gray-300 hover:text-red-400 transition-colors"
+                  className="footer-link"
                 >
-                  <Youtube size={20} className="mr-3" />
+                  <Youtube size={20} className="mr-3 footer-icon" />
                   YouTube
                 </a>
                 <a
                   href="https://web.whatsapp.com/send?phone=918925001292"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-gray-300 hover:text-green-400 transition-colors"
+                  className="footer-link"
                 >
-                  <MessageCircle size={20} className="mr-3" />
+                  <MessageCircle size={20} className="mr-3 footer-icon" />
                   WhatsApp
                 </a>
               </div>
             </div>
           </div>
-          <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Krithik Tours & Travels. All rights reserved.</p>
+          <div className="border-t footer-divider pt-8 text-center">
+            <p className="footer-copyright">&copy; 2025 Krithik Tours & Travels. All rights reserved.</p>
           </div>
         </div>
       </footer>

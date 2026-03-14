@@ -211,7 +211,7 @@ export default function DestinationPage({
       )}
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-12">
+      <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             <div>
@@ -220,40 +220,40 @@ export default function DestinationPage({
                 alt="Krithik Tours & Travels"
                 className="h-12 mb-4 brightness-0 invert"
               />
-              <p className="text-gray-300">Your trusted travel partner for unforgettable journeys.</p>
+              <p className="footer-body-text">Your trusted travel partner for unforgettable journeys.</p>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-4">Quick Contact</h3>
+              <h3 className="text-xl font-bold mb-4 footer-heading">Quick Contact</h3>
               <div className="space-y-2">
                 <a
                   href="https://wa.me/918925001292"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center text-gray-300 hover:text-white transition-colors"
+                  className="footer-link"
                 >
-                  <MessageCircle size={18} className="mr-2" />
+                  <MessageCircle size={18} className="mr-2 footer-icon" />
                   WhatsApp Us
                 </a>
-                <a href="mailto:krithiktravels2607@gmail.com" className="flex items-center text-gray-300 hover:text-white transition-colors">
-                  <Phone size={18} className="mr-2" />
+                <a href="mailto:krithiktravels2607@gmail.com" className="footer-link">
+                  <Phone size={18} className="mr-2 footer-icon" />
                   Email Us
                 </a>
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-4">Follow Us</h3>
+              <h3 className="text-xl font-bold mb-4 footer-heading">Follow Us</h3>
               <div className="flex gap-4">
-                <a href="https://instagram.com/krithik_tours_travels_palani" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-pink-400 transition-colors">
+                <a href="https://instagram.com/krithik_tours_travels_palani" target="_blank" rel="noopener noreferrer" className="footer-link">
                   Instagram
                 </a>
-                <a href="https://facebook.com/krithiktoursandtravels" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
+                <a href="https://facebook.com/krithiktoursandtravels" target="_blank" rel="noopener noreferrer" className="footer-link">
                   Facebook
                 </a>
               </div>
             </div>
           </div>
-          <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Krithik Tours & Travels. All rights reserved.</p>
+          <div className="border-t footer-divider pt-8 text-center">
+            <p className="footer-copyright">&copy; 2025 Krithik Tours & Travels. All rights reserved.</p>
           </div>
         </div>
       </footer>
