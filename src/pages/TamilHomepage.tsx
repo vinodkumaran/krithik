@@ -34,10 +34,10 @@ function TamilHomepage() {
       document.head.appendChild(link);
     });
 
-    document.title = 'Krithik Tours & Travels | தமிழ் - தெற்கு இந்தியா சுற்றுலா பொதிகள் 2026';
+    document.title = 'Krithik Tours & Travels | தமிழ் - தெற்கு இந்தியா சுற்றுலா 2026';
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
-      metaDesc.setAttribute('content', 'Krithik Tours & Travels பாலணி - தெற்கு இந்தியா சுற்றுலா பொதிகள், ஆலப்புழ தங்கும் இடம், மாயூர் ஹெரிடேஜ் சுற்றுலா। 24/7 ট্যাக্সি சেবা। আজই பதிவு செய்யவும்!');
+      metaDesc.setAttribute('content', 'Krithik Tours & Travels பழனி - தெற்கு இந்தியா சுற்றுலா, ஆலப்புழ தங்கும் இடம், மைசூர் ஹெரிடேஜ் சுற்றுலா. 24/7 டாக்சி சேவை. இப்போதே பதிவு செய்யவும்!');
     }
 
     return () => {
@@ -62,7 +62,7 @@ function TamilHomepage() {
 
   const topDestinations = [
     {
-      name: 'பாலணி ஒரு நாள் சுற்றுலா',
+      name: 'பழனி ஒரு நாள் சுற்றுலா',
       price: 4999,
       duration: '1 நாள்',
       image: '/palani.jpg'
@@ -152,11 +152,11 @@ function TamilHomepage() {
             >
               <img
                 src="/sabarimala_trip.jpg"
-                alt="அருப்தै வீடு"
+                alt="ஆறுபடை வீடு"
                 className="w-full h-40 object-cover"
               />
               <div className="p-2">
-                <h3 className="font-bold text-base">அருப்தை வீடு</h3>
+                <h3 className="font-bold text-base">ஆறுபடை வீடு</h3>
                 <p className="text-xs text-green-100">கோயில் சுற்றுலா</p>
               </div>
             </button>
@@ -186,11 +186,11 @@ function TamilHomepage() {
                 >
                   <img
                     src="/sabarimala_trip.jpg"
-                    alt="அருப்தை வீடு"
+                    alt="ஆறுபடை வீடு"
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-4">
-                    <h3 className="font-bold text-lg">அருப்தை வீடு</h3>
+                    <h3 className="font-bold text-lg">ஆறுபடை வீடு</h3>
                     <p className="text-sm text-green-100">கோயில் சுற்றுலா</p>
                   </div>
                 </button>
@@ -245,9 +245,12 @@ function TamilHomepage() {
             <div className="space-y-4 md:space-y-8 animate-fade-in md:order-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-slide-up relative">
                 <span className="bg-gradient-to-r from-white via-yellow-100 to-white bg-clip-text text-transparent animate-shine bg-[length:200%_100%]">
-                  தெற்கு இந்தியா சுற்றுலா மற்றும் பொதிகள் 2026
+                  தெற்கு இந்தியா சுற்றுலா மற்றும் சுற்றுலா 2026
                 </span>
               </h1>
+              <p className="text-lg md:text-xl text-green-100 mt-2">
+                தமிழ்நாட்டில் பழனி, கொடைக்கானல் மற்றும் ஏற்காடு ஆகிய இடங்களை உள்ளடக்கிய சுற்றுலா
+              </p>
 
               {/* Service Icons */}
               <div className="flex flex-wrap items-center justify-start gap-2 md:gap-6 py-2 md:py-4">
@@ -295,7 +298,7 @@ function TamilHomepage() {
               <div className="grid grid-cols-3 gap-3 md:gap-6 pt-3 md:pt-6 animate-fade-in-stats">
                 <div className="text-center">
                   <div className="text-3xl md:text-4xl font-bold">20+</div>
-                  <div className="text-sm md:text-base text-green-200 mt-1">இலக்குகள்</div>
+                  <div className="text-sm md:text-base text-green-200 mt-1">இடங்கள்</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl md:text-4xl font-bold">500+</div>
@@ -367,7 +370,7 @@ function TamilHomepage() {
               <div className="p-6">
                 <h3 className="text-2xl font-bold text-gray-800 mb-2">{dest.name}</h3>
                 <div className="text-sm text-green-700 font-semibold mb-3">
-                  ஓட்டுநர் சேர்க்கப்பட்டுள்ளது • பथ்கர் கட்டணம் • குடும்ப பாதுகாப்பு முதல்
+                  ஓட்டுநர் சேர்க்கப்பட்டுள்ளது • நுழைவுக் கட்டணம் • குடும்ப பாதுகாப்பு முதல்
                 </div>
                 <div className="flex items-center text-gray-600 mb-4">
                   <Calendar size={20} className="mr-2" />
@@ -399,13 +402,13 @@ function TamilHomepage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <span className="inline-block bg-green-600 text-white px-6 py-2 rounded-full text-sm font-bold mb-4">
-              முதன்மை சுற்றுலா பொதிகள்
+              முதன்மை சுற்றுலா
             </span>
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              மிகவும் பிரபலமான இலக்குகள்
+              மிகவும் பிரபலமான இடங்கள்
             </h2>
             <p className="text-gray-600 text-lg">
-              வாரத்தின் விடுமுறை அல்லது நீட்டிக்கப்பட்ட விடுமுறை பொதிகளுக்கு தேர்வு செய்யவும்
+              வாரத்தின் விடுமுறை அல்லது நீட்டிக்கப்பட்ட விடுமுறை சுற்றுலாவிற்கு தேர்வு செய்யவும்
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -441,7 +444,7 @@ function TamilHomepage() {
                     <div className="border-l-4 border-emerald-500 pl-4">
                       <p className="text-gray-800 font-semibold text-sm mb-1">விடுமுறை சுற்றுலா</p>
                       <p className="text-sm text-gray-700 leading-relaxed">
-                        ஹோட்டல் + ஓட்டுநர் சேர்க்கப்பட்டுள்ளது • விமான நிலையம் / இரயில் பரிமாற்றம்
+                        ஹோட்டல் + ஓட்டுநர் சேர்க்கப்பட்டுள்ளது • விமான நிலையம் / இரயில் Transfer
                       </p>
                     </div>
                     <div className="text-center pt-2">
@@ -477,10 +480,10 @@ function TamilHomepage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <span className="inline-block bg-teal-600 text-white px-6 py-2 rounded-full text-sm font-bold mb-4">
-              இரண்டாம் சுற்றுலா பொதிகள்
+              இரண்டாம் சுற்றுலா
             </span>
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              மேலும் அசாধாரணமான இலக்குகள்
+              மேலும் அசாதாரண இடங்கள்
             </h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -516,7 +519,7 @@ function TamilHomepage() {
                     <div className="border-l-4 border-teal-600 pl-3">
                       <p className="text-gray-800 font-semibold text-xs mb-1">விடுமுறை சுற்றுலா</p>
                       <p className="text-xs text-gray-700 leading-relaxed">
-                        ஹோட்டல் + ஓட்டுநர் + விமான நிலையம் பரிமாற்றம்
+                        ஹோட்டல் + ஓட்டுநர் + விமான நிலையம் Transfer
                       </p>
                     </div>
                   </div>
@@ -571,13 +574,13 @@ function TamilHomepage() {
               <p className="text-gray-600 text-sm text-center">குடும்ப சுற்றுலாவிற்கான விசாலமான SUV</p>
             </div>
 
-            <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow border-t-4 border-purple-500">
-              <div className="flex items-center justify-center w-16 h-16 bg-purple-100 rounded-full mb-4 mx-auto">
-                <Bus size={32} className="text-purple-600" />
+            <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow border-t-4 border-blue-500">
+              <div className="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4 mx-auto">
+                <Bus size={32} className="text-blue-600" />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2 text-center">பயணிக்கும் வாடகை</h3>
-              <p className="text-purple-600 font-bold text-center mb-3">₹7,599 இலிருந்து தொடங்கும்</p>
-              <p className="text-gray-600 text-sm text-center">மধ்यm அளவிலான குழுக்களுக்கு சிறந்தது</p>
+              <p className="text-blue-600 font-bold text-center mb-3">₹7,599 இலிருந்து தொடங்கும்</p>
+              <p className="text-gray-600 text-sm text-center">நடுத்தர அளவிலான குழுக்களுக்கு சிறந்தது</p>
             </div>
 
             <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow border-t-4 border-orange-500">
@@ -586,7 +589,7 @@ function TamilHomepage() {
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2 text-center">பயணிகள் வாகனம் மற்றும் சுற்றுலா பஸ்</h3>
               <p className="text-orange-600 font-bold text-center mb-3">மக்கள் எண்ணிக்கையின் அடிப்படையில்</p>
-              <p className="text-gray-600 text-sm text-center">பெரிய குழு வாகன சரக்கு</p>
+              <p className="text-gray-600 text-sm text-center">பெரிய குழு பயணங்களுக்கு ஏற்றது</p>
             </div>
           </div>
         </div>
@@ -603,7 +606,7 @@ function TamilHomepage() {
               வாடிக்கையாளர் வீடியோ சாட்சியங்கள்
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              எங்கள் சந்தோஷமான பயணிகளிடமிருந்து உண்மையான அভিজ்ஞதைகளைக் காணுங்கள்
+              எங்கள் சந்தோஷமான பயணிகளிடமிருந்து உண்மையான அனுபவங்களைக் காணுங்கள்
             </p>
           </div>
 
@@ -674,7 +677,7 @@ function TamilHomepage() {
                 className="h-16 mb-4 brightness-0 invert"
               />
               <p className="text-gray-300">
-                편안한 여행에 약속합니다. உங்கள் நம்பக்கத்தக்க பயணக் கூட்டாளி மறக்கமுடியாத பயணங்களுக்கு।
+                உங்கள் நம்பகமான பயணக் கூட்டாளி மறக்கமுடியாத பயணங்களுக்கு.
               </p>
             </div>
             <div>
@@ -750,7 +753,7 @@ function TamilHomepage() {
             </div>
           </div>
           <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Krithik Tours & Travels. அனைத்து உரிமைகளும் வReserved.</p>
+            <p>&copy; 2025 Krithik Tours & Travels. அனைத்து உரிமைகளும் Reserved.</p>
           </div>
         </div>
       </footer>
@@ -761,7 +764,7 @@ function TamilHomepage() {
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-8 right-8 bg-[#25D366] hover:bg-[#20BA5A] text-white p-4 rounded-full shadow-2xl transition-all transform hover:scale-110 z-50"
-        aria-label="WhatsApp இல் விளாசனை"
+        aria-label="WhatsApp இல் தொடர்பு கொள்ளவும்"
       >
         <MessageCircle size={28} />
       </a>
