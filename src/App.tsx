@@ -46,7 +46,7 @@ function App() {
       name: 'Kodaikanal',
       weekend: 14999,
       holiday: 22999,
-      image: '/Kodaikanal.jpg'
+      image: '/Pillar_Rock_Kodaikanal.jpg'
     }
   ];
 
@@ -118,7 +118,7 @@ function App() {
               className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 active:scale-95 transition-all cursor-pointer"
             >
               <img
-                src="/Kodaikanal.jpg"
+                src="/Pillar_Rock_Kodaikanal.jpg"
                 alt="Kodaikanal Pillar Rocks"
                 className="w-full h-40 object-cover"
               />
@@ -168,7 +168,7 @@ function App() {
                   className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-all cursor-pointer w-full text-left"
                 >
                   <img
-                    src="/Kodaikanal.jpg"
+                    src="/Pillar_Rock_Kodaikanal.jpg"
                     alt="Kodaikanal Pillar Rocks"
                     className="w-full h-48 object-cover"
                   />
