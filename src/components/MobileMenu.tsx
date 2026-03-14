@@ -1,4 +1,4 @@
-import { X, Phone, Car, Users, Bus, Globe, Mountain } from 'lucide-react';
+import { X, Phone, Car, Users, Bus, Globe, Mountain, BookOpen } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -114,7 +114,7 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             </a>
           </div>
 
-          <div className="mb-6 pb-6 border-b border-gray-200">
+          <div className="mb-6 pb-6 border-b border-gray-200 space-y-3">
             <Link
               to="/palani-tourist-places"
               onClick={() => onClose()}
@@ -124,6 +124,17 @@ function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               <div>
                 <h3 className="font-bold text-lg">Palani Tourist Places</h3>
                 <p className="text-sm text-green-100">Explore sacred temples</p>
+              </div>
+            </Link>
+            <Link
+              to="/blog"
+              onClick={() => onClose()}
+              className="flex items-center gap-3 bg-gradient-to-br from-amber-500 to-orange-500 text-white hover:from-amber-600 hover:to-orange-600 transition-all p-4 rounded-lg"
+            >
+              <BookOpen size={24} />
+              <div>
+                <h3 className="font-bold text-lg">Blog</h3>
+                <p className="text-sm text-amber-100">Travel stories & guides</p>
               </div>
             </Link>
           </div>

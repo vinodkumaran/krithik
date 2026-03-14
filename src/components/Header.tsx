@@ -1,4 +1,4 @@
-import { Menu, Mountain } from 'lucide-react';
+import { Menu, Mountain, BookOpen } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import MobileMenu from './MobileMenu';
@@ -33,6 +33,14 @@ export default function Header({ isDestinationPage = false }: HeaderProps) {
                   aria-label="Palani Tourist Places"
                 >
                   <Mountain size={20} />
+                </Link>
+                <Link
+                  to="/blog"
+                  className="p-3 rounded-full bg-gradient-to-br from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 transition-all text-white"
+                  title="Blog"
+                  aria-label="Blog"
+                >
+                  <BookOpen size={20} />
                 </Link>
               </div>
 
