@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Calendar, FileText, Car, Bus, Instagram, Facebook, Youtube, MessageCircle, Hotel, Train, UtensilsCrossed, MapPinned } from 'lucide-react';
+import { MapPin, Phone, Mail, Calendar, FileText, Car, Bus, Instagram, Facebook, Youtube, MessageCircle, Hotel, Brain as Train, UtensilsCrossed, MapPinned } from 'lucide-react';
 import { useState } from 'react';
 import Header from './components/Header';
 import BookingModal from './components/BookingModal';
@@ -178,17 +178,17 @@ function App() {
                   </div>
                 </button>
                 <button
-                  onClick={() => handleViewItinerary('Ooty')}
+                  onClick={() => handleViewItinerary('Kodaikanal')}
                   className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-all cursor-pointer w-full text-left"
                 >
                   <img
-                    src="/ooty.jpg"
-                    alt="Ooty"
+                    src="/bus-card.jpg"
+                    alt="Bus to Chennai/Bangalore"
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-4">
-                    <h3 className="font-bold text-lg">Ooty</h3>
-                    <p className="text-sm text-green-100">Stay + Driver Included</p>
+                    <h3 className="font-bold text-lg">Daily Bus</h3>
+                    <p className="text-sm text-green-100">Departure Tonight</p>
                   </div>
                 </button>
               </div>
@@ -279,17 +279,17 @@ function App() {
               </div>
             </button>
             <button
-              onClick={() => handleViewItinerary('Ooty')}
+              onClick={() => handleViewItinerary('Kodaikanal')}
               className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 active:scale-95 transition-all cursor-pointer"
             >
               <img
-                src="/ooty.jpg"
-                alt="Ooty"
+                src="/bus-card.jpg"
+                alt="Bus to Chennai/Bangalore"
                 className="w-full h-40 object-cover"
               />
               <div className="p-2">
-                <h3 className="font-bold text-base">Ooty</h3>
-                <p className="text-xs text-green-100">Stay + Driver Included</p>
+                <h3 className="font-bold text-base">Daily Bus</h3>
+                <p className="text-xs text-green-100">Departure Tonight</p>
               </div>
             </button>
           </div>
