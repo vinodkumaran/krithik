@@ -21,6 +21,18 @@ export const blogCategories = [
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'arupadai-veedu-murugan-temple-tour',
+    title: 'Arupadai Veedu — Best Travel Agency in Tamil Nadu',
+    excerpt:
+      'Visit all 6 sacred Murugan temples — Palani, Thiruchendur, Swamimalai, Thiruparankundram, Pazhamudircholai, and Tiruttani — in a single 3 Days / 2 Nights private pilgrimage package with A/C car, driver-guide, and hotel stay.',
+    category: 'itineraries',
+    date: 'March 14, 2026',
+    readTime: '8 min read',
+    image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=800',
+    tags: ['Arupadai Veedu', 'Murugan Temples', 'Tamil Nadu', 'Pilgrimage', '3 Days Tour', 'Itinerary'],
+    path: '/arupadai-veedu-murugan-temple-tour',
+  },
+  {
     slug: 'palani-tourist-places',
     title: 'Top Tourist Places in Palani You Must Visit',
     excerpt:

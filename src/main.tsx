@@ -28,6 +28,7 @@ import CoorgCoffeeEstate from './pages/CoorgCoffeeEstate.tsx';
 import ValparaiTeaEstate from './pages/ValparaiTeaEstate.tsx';
 import PilgrimageSpecialTour from './pages/PilgrimageSpecialTour.tsx';
 import PalaniTouristPlaces from './pages/PalaniTouristPlaces.jsx';
+import ArupadaiVeeduTour from './pages/ArupadaiVeeduTour.tsx';
 import BlogIndex from './pages/BlogIndex.tsx';
 import PalaniTempleHistory from './pages/blog/PalaniTempleHistory.tsx';
 import './index.css';
@@ -63,6 +64,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/valparai-tea-estate-sightseeing-tour" element={<ValparaiTeaEstate />} />
         <Route path="/pilgrimage-special-tour-malaysia-singapore-nri" element={<PilgrimageSpecialTour />} />
         <Route path="/palani-tourist-places" element={<PalaniTouristPlaces />} />
+        <Route path="/arupadai-veedu-murugan-temple-tour" element={<ArupadaiVeeduTour />} />
         <Route path="/blog" element={<BlogIndex />} />
         <Route path="/blog/palani-temple-history" element={<PalaniTempleHistory />} />
         <Route path="*" element={<Navigate to="/" replace />} />
