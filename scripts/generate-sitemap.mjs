@@ -5,94 +5,84 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const BASE_URL = 'https://www.krithiktoursandtravels.com';
 
-const HREFLANG_ROUTES = [
-  { path: '/', hreflang: 'en' },
-  { path: '/tamil', hreflang: 'ta' },
-  { path: '/hindi', hreflang: 'hi' },
-  { path: '/telugu', hreflang: 'te' },
-  { path: '/kannada', hreflang: 'kn' },
+const urls = [
+  { loc: '/', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/palani-temple-one-day-trip', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/palani-one-day-temple-trip', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/palani-tourist-places', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/palani-history-temple-history', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/arupadai-veedu-murugan-temple-tour', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/kodaikanal-two-days-trip', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/kodaikanal-2-day-sightseeing-itinerary', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/yercaud-tour-package-itinerary', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/yercaud-hill-station-tour-itinerary', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/ooty-hill-station-itinerary', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/munnar-nature-tour-itinerary', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/alleppey-overnight-houseboat-stay', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/mysore-heritage-tour-itinerary', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/coorg-coffee-estate-tour-plan', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/valparai-tea-estate-sightseeing-tour', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/coimbatore-marudhamalai-one-day-trip', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/nri-south-india-tour-pickup-drop-ooty', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/malaysia-to-south-india-tour-package', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/singapore-to-south-india-tour-package', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/pilgrimage-special-tour-malaysia-singapore-nri', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/hire', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/blog', lastmod: '2026-08-03T00:22:54+01:00', priority: '1.0' },
+  { loc: '/blog/palani-temple-history', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.8' },
+  { loc: '/blog/hill-stations/kodaikanal-travel-guide', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/blog/hill-stations/yercaud-travel-guide', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/blog/hill-stations/munnar-travel-guide', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/blog/travel-tips/kodaikanal-travel-tips', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/blog/travel-tips/munnar-travel-tips', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/blog/travel-tips/alleppey-houseboat-tips', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/blog/travel-tips/mysore-travel-tips', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/blog/history-culture/kodaikanal-history', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/blog/history-culture/mysore-history', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/blog/history-culture/munnar-history-culture', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/blog/history-culture/alleppey-history', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/blog/itineraries/kodaikanal-3-days-2-nights-itinerary', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/blog/itineraries/yercaud-2-days-1-night-itinerary', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/blog/itineraries/alleppey-houseboat-2-days-1-night', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/blog/itineraries/mysore-3-days-itinerary', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.6' },
+  { loc: '/palani-temple-one-day-trip/', lastmod: '2026-08-03T00:22:54+01:00', priority: '0.8' },
+  { loc: '/palani-history-temple-history/', lastmod: '2026-08-03T00:23:04+01:00', priority: '0.8' },
+  { loc: '/kodaikanal-two-days-trip/', lastmod: '2026-08-03T00:23:04+01:00', priority: '0.8' },
+  { loc: '/blog/', lastmod: '2026-08-03T00:23:05+01:00', priority: '0.8' },
+  { loc: '/nri-south-india-tour-pickup-drop-ooty/', lastmod: '2026-08-03T00:23:05+01:00', priority: '0.8' },
+  { loc: '/yercaud-tour-package-itinerary/', lastmod: '2026-08-03T00:23:05+01:00', priority: '0.8' },
+  { loc: '/malaysia-to-south-india-tour-package/', lastmod: '2026-08-03T00:23:06+01:00', priority: '0.8' },
+  { loc: '/blog/travel-tips', lastmod: '2026-08-03T00:23:06+01:00', priority: '0.8' },
+  { loc: '/coimbatore-marudhamalai-one-day-trip/', lastmod: '2026-08-03T00:23:06+01:00', priority: '0.8' },
+  { loc: '/blog/travel-tips/ooty-toy-train-timings-2027', lastmod: '2026-08-03T00:23:07+01:00', priority: '0.6' },
+  { loc: '/singapore-to-south-india-tour-package/', lastmod: '2026-08-03T00:23:08+01:00', priority: '0.8' },
+  { loc: '/blog/hill-stations', lastmod: '2026-08-03T00:23:08+01:00', priority: '0.8' },
+  { loc: '/telugu', lastmod: '2026-08-03T00:23:08+01:00', priority: '1.0' },
+  { loc: '/blog/history-culture', lastmod: '2026-08-03T00:23:08+01:00', priority: '0.8' },
+  { loc: '/tamil', lastmod: '2026-08-03T00:23:09+01:00', priority: '1.0' },
+  { loc: '/blog/itineraries', lastmod: '2026-08-03T00:23:09+01:00', priority: '0.8' },
+  { loc: '/kannada', lastmod: '2026-08-03T00:23:10+01:00', priority: '1.0' },
+  { loc: '/hindi', lastmod: '2026-08-03T00:23:11+01:00', priority: '1.0' },
+  { loc: '/customer-testimonials', lastmod: '2026-08-03T00:23:15+01:00', priority: '1.0' },
+  { loc: '/videos', lastmod: '2026-08-03T00:23:17+01:00', priority: '1.0' },
 ];
 
-const EXCLUDED = ['*', '/404', '/admin', '/dashboard', '/login', '/api'];
-
-const routes = [
-  { path: '/', priority: '1.0', changefreq: 'weekly', hreflang: true },
-  { path: '/tamil', priority: '0.9', changefreq: 'weekly', hreflang: true },
-  { path: '/hindi', priority: '0.9', changefreq: 'weekly', hreflang: true },
-  { path: '/telugu', priority: '0.9', changefreq: 'weekly', hreflang: true },
-  { path: '/kannada', priority: '0.9', changefreq: 'weekly', hreflang: true },
-  { path: '/hire', priority: '0.9', changefreq: 'monthly', hreflang: false },
-  { path: '/customer-testimonials', priority: '0.7', changefreq: 'weekly', hreflang: false },
-  { path: '/videos', priority: '0.6', changefreq: 'monthly', hreflang: false },
-  { path: '/palani-temple-one-day-trip', priority: '0.9', changefreq: 'monthly', hreflang: false },
-  { path: '/kodaikanal-two-days-trip', priority: '0.8', changefreq: 'monthly', hreflang: false },
-  { path: '/yercaud-tour-package-itinerary', priority: '0.8', changefreq: 'monthly', hreflang: false },
-  { path: '/palani-history-temple-history', priority: '0.7', changefreq: 'monthly', hreflang: false },
-  { path: '/coimbatore-marudhamalai-one-day-trip', priority: '0.7', changefreq: 'monthly', hreflang: false },
-  { path: '/nri-south-india-tour-pickup-drop-ooty', priority: '0.8', changefreq: 'monthly', hreflang: false },
-  { path: '/malaysia-to-south-india-tour-package', priority: '0.8', changefreq: 'monthly', hreflang: false },
-  { path: '/singapore-to-south-india-tour-package', priority: '0.8', changefreq: 'monthly', hreflang: false },
-  { path: '/palani-one-day-temple-trip', priority: '0.8', changefreq: 'monthly', hreflang: false },
-  { path: '/alleppey-overnight-houseboat-stay', priority: '0.8', changefreq: 'monthly', hreflang: false },
-  { path: '/yercaud-hill-station-tour-itinerary', priority: '0.8', changefreq: 'monthly', hreflang: false },
-  { path: '/munnar-nature-tour-itinerary', priority: '0.8', changefreq: 'monthly', hreflang: false },
-  { path: '/kodaikanal-2-day-sightseeing-itinerary', priority: '0.8', changefreq: 'monthly', hreflang: false },
-  { path: '/mysore-heritage-tour-itinerary', priority: '0.8', changefreq: 'monthly', hreflang: false },
-  { path: '/ooty-hill-station-itinerary', priority: '0.8', changefreq: 'monthly', hreflang: false },
-  { path: '/coorg-coffee-estate-tour-plan', priority: '0.7', changefreq: 'monthly', hreflang: false },
-  { path: '/valparai-tea-estate-sightseeing-tour', priority: '0.7', changefreq: 'monthly', hreflang: false },
-  { path: '/pilgrimage-special-tour-malaysia-singapore-nri', priority: '0.7', changefreq: 'monthly', hreflang: false },
-  { path: '/palani-tourist-places', priority: '0.9', changefreq: 'monthly', hreflang: false },
-  { path: '/arupadai-veedu-murugan-temple-tour', priority: '0.8', changefreq: 'monthly', hreflang: false },
-  { path: '/blog', priority: '0.8', changefreq: 'weekly', hreflang: false },
-  { path: '/blog/palani-temple-history', priority: '0.7', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/hill-stations/kodaikanal-travel-guide', priority: '0.7', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/hill-stations/yercaud-travel-guide', priority: '0.7', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/hill-stations/munnar-travel-guide', priority: '0.7', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/travel-tips/kodaikanal-travel-tips', priority: '0.6', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/travel-tips/munnar-travel-tips', priority: '0.6', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/travel-tips/alleppey-houseboat-tips', priority: '0.6', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/travel-tips/mysore-travel-tips', priority: '0.6', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/history-culture/kodaikanal-history', priority: '0.6', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/history-culture/mysore-history', priority: '0.6', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/history-culture/munnar-history-culture', priority: '0.6', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/history-culture/alleppey-history', priority: '0.6', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/itineraries/kodaikanal-3-days-2-nights-itinerary', priority: '0.7', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/itineraries/yercaud-2-days-1-night-itinerary', priority: '0.7', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/itineraries/alleppey-houseboat-2-days-1-night', priority: '0.7', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/itineraries/mysore-3-days-itinerary', priority: '0.7', changefreq: 'monthly', hreflang: false },
-  { path: '/blog/travel-tips/ooty-toy-train-timings-2027', priority: '0.7', changefreq: 'monthly', hreflang: false },
-];
-
-const validRoutes = routes.filter((r) => !EXCLUDED.includes(r.path) && !r.path.includes(':'));
-
-if (validRoutes.length === 0) {
-  throw new Error('[sitemap] No routes found — refusing to generate empty sitemap.');
+if (urls.length === 0) {
+  throw new Error('[sitemap] No URLs found — refusing to generate empty sitemap.');
 }
 
-const today = new Date().toISOString().split('T')[0];
-
-const hreflangLinks = (route) => {
-  if (!route.hreflang) return '';
-  return HREFLANG_ROUTES.map(
-    (h) =>
-      `\n    <xhtml:link rel="alternate" hreflang="${h.hreflang}" href="${BASE_URL}${h.path}"/>`
-  ).join('') + `\n    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/"/>`;
-};
-
-const urlEntries = validRoutes.map((route) => {
-  const loc = `${BASE_URL}${route.path === '/' ? '/' : route.path}`;
-  return `  <url>
-    <loc>${loc}</loc>${hreflangLinks(route)}
-    <lastmod>${today}</lastmod>
-    <changefreq>${route.changefreq}</changefreq>
-    <priority>${route.priority}</priority>
-  </url>`;
+const urlEntries = urls.map((u) => {
+  const loc = `${BASE_URL}${u.loc}`;
+  return `<url>
+\t<loc>${loc}</loc>
+\t<lastmod>${u.lastmod}</lastmod>
+\t<priority>${u.priority}</priority>
+</url>`;
 });
 
 const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+\t\t<!--\tcreated by vinod kumaran\t-->
+\t\t<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urlEntries.join('\n')}
 </urlset>
 `;
@@ -251,5 +241,5 @@ if (!fs.existsSync(distDir)) {
 fs.writeFileSync(path.join(distDir, 'sitemap.xml'), sitemapXml, 'utf8');
 fs.writeFileSync(path.join(distDir, 'robots.txt'), robotsTxt, 'utf8');
 
-console.log(`[sitemap] Generated sitemap.xml with ${validRoutes.length} URLs`);
+console.log(`[sitemap] Generated sitemap.xml with ${urls.length} URLs`);
 console.log('[sitemap] Generated robots.txt');
