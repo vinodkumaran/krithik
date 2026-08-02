@@ -5,31 +5,31 @@ export default function YercaudTour() {
   const schemaMarkup = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "@id": "https://krithiktravels.com/yercaud-tour-package-itinerary/#blogpost",
+    "@id": "https://krithiktoursandtravels.com/yercaud-tour-package-itinerary/#blogpost",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://krithiktravels.com/yercaud-tour-package-itinerary/"
+      "@id": "https://krithiktoursandtravels.com/yercaud-tour-package-itinerary/"
     },
     "headline": "Yercaud Tour Package: A Peaceful Hill Escape with a Perfect Itinerary",
     "description": "Discover Yercaud's serene coffee estates, panoramic viewpoints and colonial charm with detailed tour package and itinerary.",
     "image": {
       "@type": "ImageObject",
-      "url": "https://krithiktravels.com/Yercaud.jpg",
+      "url": "https://krithiktoursandtravels.com/Yercaud.jpg",
       "width": 1200,
       "height": 675
     },
     "author": {
       "@type": "Organization",
       "name": "Krithik Tours & Travels",
-      "url": "https://krithiktravels.com/"
+      "url": "https://krithiktoursandtravels.com/"
     },
     "publisher": {
       "@type": "TravelAgency",
       "name": "Krithik Tours & Travels",
-      "url": "https://krithiktravels.com/",
+      "url": "https://krithiktoursandtravels.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://krithiktravels.com/krithik_travels_logo.png",
+        "url": "https://krithiktoursandtravels.com/krithik_travels_logo.png",
         "width": 300,
         "height": 100
       }
@@ -58,7 +58,7 @@ export default function YercaudTour() {
     "isPartOf": {
       "@type": "Blog",
       "name": "Krithik Tours & Travels Blog",
-      "url": "https://krithiktravels.com/blog/"
+      "url": "https://krithiktoursandtravels.com/blog/"
     },
     "mentions": [
       {
@@ -73,7 +73,7 @@ export default function YercaudTour() {
     "potentialAction": {
       "@type": "ReadAction",
       "target": [
-        "https://krithiktravels.com/yercaud-tour-package-itinerary/"
+        "https://krithiktoursandtravels.com/yercaud-tour-package-itinerary/"
       ]
     }
   });
@@ -88,8 +88,8 @@ export default function YercaudTour() {
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
-            { '@type': 'ListItem', position: 2, name: 'Yercaud Tour Package Itinerary', item: 'https://www.krithiktravels.com/yercaud-tour-package-itinerary' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktoursandtravels.com/' },
+            { '@type': 'ListItem', position: 2, name: 'Yercaud Tour Package Itinerary', item: 'https://www.krithiktoursandtravels.com/yercaud-tour-package-itinerary' },
           ],
         },
       ]}
