@@ -46,6 +46,7 @@ import Kodaikanal3Days from './pages/blog/Kodaikanal3Days.tsx';
 import Yercaud2Days from './pages/blog/Yercaud2Days.tsx';
 import AlleppeyHouseboat2Days from './pages/blog/AlleppeyHouseboat2Days.tsx';
 import Mysore3Days from './pages/blog/Mysore3Days.tsx';
+import OotyToyTrainTimings from './pages/blog/OotyToyTrainTimings.tsx';
 import './index.css';
 
 createRoot(document.getElementById('root')!).render(
@@ -97,6 +98,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/blog/itineraries/yercaud-2-days-1-night-itinerary" element={<Yercaud2Days />} />
         <Route path="/blog/itineraries/alleppey-houseboat-2-days-1-night" element={<AlleppeyHouseboat2Days />} />
         <Route path="/blog/itineraries/mysore-3-days-itinerary" element={<Mysore3Days />} />
+        <Route path="/blog/travel-tips/ooty-toy-train-timings-2027" element={<OotyToyTrainTimings />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>

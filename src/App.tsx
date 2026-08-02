@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail, Calendar, FileText, Car, Bus, Instagram, Facebook, Youtube, MessageCircle, Hotel, Brain as Train, UtensilsCrossed, MapPinned } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Header from './components/Header';
 import BookingModal from './components/BookingModal';
@@ -708,6 +709,11 @@ function App() {
           </div>
           <div className="border-t footer-divider pt-8 text-center">
             <p className="footer-copyright">&copy; 2025 Krithik Tours & Travels. All rights reserved.</p>
+            <p className="mt-2 text-sm">
+              <Link to="/blog/travel-tips/ooty-toy-train-timings-2027" className="text-blue-400 hover:text-blue-300 transition-colors underline">
+                Ooty Train Booking Tricks
+              </Link>
+            </p>
           </div>
         </div>
       </footer>

@@ -201,6 +201,18 @@ export const blogPosts: BlogPost[] = [
     path: '/blog/itineraries/mysore-3-days-itinerary',
   },
   {
+    slug: 'ooty-toy-train-timings-2027',
+    title: 'Ooty Toy Train Timings 2027: Nilgiri Mountain Railway Complete Guide',
+    excerpt:
+      'Complete Ooty toy train timings for 2027 — Mettupalayam to Ooty and Coonoor to Ooty schedules, ticket prices, booking tricks, and journey tips for the UNESCO Nilgiri Mountain Railway.',
+    category: 'travel-tips',
+    date: 'January 1, 2027',
+    readTime: '12 min read',
+    image: 'https://images.pexels.com/photos/5119188/pexels-photo-5119188.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    tags: ['Ooty', 'Toy Train', 'Nilgiri Mountain Railway', 'Timings', 'Booking', '2027'],
+    path: '/blog/travel-tips/ooty-toy-train-timings-2027',
+  },
+  {
     slug: 'palani-temple-history',
     title: 'Palani Temple: 100 Years of History, Devotion & Sacred Heritage',
     excerpt:
