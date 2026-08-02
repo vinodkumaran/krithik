@@ -1,4 +1,140 @@
+# ============================================
+# All search engine and LLM/AI bots allowed
+# ============================================
+
 User-agent: *
 Allow: /
 
+# --- Google ---
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# --- OpenAI / ChatGPT ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# --- Anthropic / Claude ---
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# --- Perplexity ---
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# --- Microsoft / Bing ---
+User-agent: Bingbot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+# --- Amazon ---
+User-agent: Amazonbot
+Allow: /
+
+# --- Apple ---
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# --- Meta / Facebook ---
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# --- ByteDance / TikTok ---
+User-agent: Bytespider
+Allow: /
+
+# --- Common Crawl ---
+User-agent: CCBot
+Allow: /
+
+# --- DuckDuckGo ---
+User-agent: DuckDuckBot
+Allow: /
+
+# --- Yandex ---
+User-agent: YandexBot
+Allow: /
+
+# --- Baidu ---
+User-agent: Baiduspider
+Allow: /
+
+# --- Sogou ---
+User-agent: Sogou
+Allow: /
+
+# --- Exalead ---
+User-agent: Exabot
+Allow: /
+
+# --- Majestic ---
+User-agent: MJ12bot
+Allow: /
+
+# --- Ahrefs ---
+User-agent: AhrefsBot
+Allow: /
+
+# --- Semrush ---
+User-agent: SemrushBot
+Allow: /
+
+# --- Mojeek ---
+User-agent: MojeekBot
+Allow: /
+
+# --- You.com ---
+User-agent: YouBot
+Allow: /
+
+# --- Cohere ---
+User-agent: cohere-ai
+Allow: /
+
+# --- Diffbot ---
+User-agent: Diffbot
+Allow: /
+
+# --- Imagesift ---
+User-agent: ImagesiftBot
+Allow: /
+
+# --- Omigli ---
+User-agent: OmigiliBot
+Allow: /
+
+# --- webz.io ---
+User-agent: webz.io
+Allow: /
+
+# --- Zoominfobot ---
+User-agent: Zoominfobot
+Allow: /
+
+# --- Sitemap Index ---
 Sitemap: https://www.krithiktravels.com/sitemap.xml
