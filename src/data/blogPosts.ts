@@ -26,7 +26,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Discover Kodaikanal — the Princess of Hill Stations at 2,133m in Tamil Nadu. Explore top 10 attractions, best time to visit, how to reach, where to stay, and local food. Plan your perfect Kodai trip now.',
     category: 'hill-stations',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '10 min read',
     image: 'https://images.pexels.com/photos/9411154/pexels-photo-9411154.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Kodaikanal', 'Hill Station', 'Tamil Nadu', 'Travel Guide', 'Dindigul'],
@@ -38,7 +38,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Discover Yercaud — Salem's hidden hill station at 1,515m in the Shevaroy Hills. Explore top attractions, coffee estates, best season, and how to reach the 'Poor Man's Ooty' of Tamil Nadu.",
     category: 'hill-stations',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '9 min read',
     image: 'https://images.pexels.com/photos/16768843/pexels-photo-16768843.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Yercaud', 'Hill Station', 'Salem', 'Tamil Nadu', 'Travel Guide'],
@@ -50,7 +50,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Explore Munnar — Kerala's most breathtaking hill station at 1,600m with sweeping tea gardens, Eravikulam National Park, and Anamudi Peak. Plan your Munnar trip with our complete 2025 guide.",
     category: 'hill-stations',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '11 min read',
     image: 'https://images.pexels.com/photos/37633371/pexels-photo-37633371.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Munnar', 'Kerala', 'Hill Station', 'Tea Gardens', 'Travel Guide'],
@@ -62,7 +62,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Planning your first Kodaikanal trip? These 15 essential travel tips cover what to pack, best roads, permits, food, photography spots, budget planning, and how to avoid tourist traps.',
     category: 'travel-tips',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '8 min read',
     image: 'https://images.pexels.com/photos/36193993/pexels-photo-36193993.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Kodaikanal', 'Travel Tips', 'First Timers', 'Trip Planning', 'Tamil Nadu'],
@@ -74,7 +74,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Everything you need to plan the perfect Munnar trip in 2025 — seasonal guide, transport options, accommodation zones, wildlife permits, budget breakdown, packing list, and local shopping tips.',
     category: 'travel-tips',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '9 min read',
     image: 'https://images.pexels.com/photos/36982207/pexels-photo-36982207.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Munnar', 'Travel Tips', 'Kerala', '2025', 'Trip Planning'],
@@ -86,7 +86,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Plan the perfect Alleppey houseboat trip with expert tips on choosing a boat, best seasons, what\'s included, food on board, safety, nearby attractions, and budget breakdown for Kerala backwaters.',
     category: 'travel-tips',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '9 min read',
     image: 'https://images.pexels.com/photos/17928231/pexels-photo-17928231.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Alleppey', 'Houseboat', 'Kerala', 'Backwaters', 'Travel Tips'],
@@ -98,7 +98,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Plan your perfect Mysore trip with expert travel tips — best time to visit, Dasara festival, Mysore Palace, day trips to Coorg and Ooty, shopping for silk and sandalwood, and food guide.',
     category: 'travel-tips',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '9 min read',
     image: 'https://images.pexels.com/photos/34962788/pexels-photo-34962788.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Mysore', 'Travel Tips', 'Karnataka', 'Dasara', 'Trip Planning'],
@@ -110,7 +110,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Explore the rich history of Kodaikanal — from indigenous Palaiyar tribes to American missionaries in 1845, colonial-era bungalows, and the creation of Kodai Lake in 1863. A complete historical guide.',
     category: 'history',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '10 min read',
     image: 'https://images.pexels.com/photos/37344033/pexels-photo-37344033.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Kodaikanal', 'History', 'Colonial Era', 'Tamil Nadu', 'Heritage'],
@@ -122,7 +122,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Trace the magnificent history of Mysore — from ancient Mahishamati to the Vijayanagara Empire, the legendary Tipu Sultan, the Wadiyar dynasty, and the modern era of Sir M. Visvesvaraya.',
     category: 'history',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '11 min read',
     image: 'https://images.pexels.com/photos/9882016/pexels-photo-9882016.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Mysore', 'History', 'Tipu Sultan', 'Wadiyar', 'Karnataka'],
@@ -134,7 +134,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Discover the fascinating history and culture of Munnar — from the Muthuvan tribes and colonial tea planters to the Tata Tea era, Eravikulam National Park, and the rare Neelakurinji bloom.',
     category: 'history',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '10 min read',
     image: 'https://images.pexels.com/photos/36623929/pexels-photo-36623929.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Munnar', 'History', 'Culture', 'Tea Estates', 'Kerala'],
@@ -146,7 +146,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Explore the rich history of Alleppey (Alappuzha) — from Raja Kesavadas's 1762 port town to the coir industry, Lord Curzon's Venice remark, the Nehru Trophy Boat Race, and Kerala's backwater heritage.",
     category: 'history',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '10 min read',
     image: 'https://images.pexels.com/photos/31746351/pexels-photo-31746351.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Alleppey', 'History', 'Kerala', 'Backwaters', 'Coir'],
@@ -158,7 +158,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Plan the perfect Kodaikanal weekend getaway with our detailed 3 days 2 nights itinerary — covering Kodai Lake, Pillar Rocks, Berijam Lake, Bear Shola Falls, Coaker\'s Walk, and more. Budget breakdown included.',
     category: 'itineraries',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '8 min read',
     image: 'https://images.pexels.com/photos/35761660/pexels-photo-35761660.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Kodaikanal', 'Itinerary', '3 Days', 'Weekend Trip', 'Tamil Nadu'],
@@ -170,7 +170,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Escape to Yercaud with our perfect 2 days 1 night itinerary — Yercaud Lake, Pagoda Point, Shevaroy Temple, Killiyur Falls, coffee plantations, and more. Ideal for families, couples, and solo travellers.',
     category: 'itineraries',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '7 min read',
     image: 'https://images.pexels.com/photos/12690705/pexels-photo-12690705.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Yercaud', 'Itinerary', '2 Days', 'Weekend Trip', 'Salem'],
@@ -182,7 +182,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Experience the magic of Kerala backwaters with our Alleppey houseboat 2 days 1 night itinerary — Vembanad Lake cruise, sunset on backwaters, traditional Kerala meals, fishing villages, and more.',
     category: 'itineraries',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '8 min read',
     image: 'https://images.pexels.com/photos/28890056/pexels-photo-28890056.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Alleppey', 'Houseboat', 'Itinerary', 'Kerala', 'Backwaters'],
@@ -194,7 +194,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Explore royal Mysore with our perfect 3 days itinerary — Mysore Palace, Chamundi Hill, Srirangapatna, Brindavan Gardens, and optional Coorg or Ooty extension. Best season, budget, and booking tips included.',
     category: 'itineraries',
-    date: 'January 1, 2025',
+    date: 'August 1, 2026',
     readTime: '9 min read',
     image: 'https://images.pexels.com/photos/38192480/pexels-photo-38192480.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Mysore', 'Itinerary', '3 Days', 'Palace', 'Karnataka'],
@@ -206,7 +206,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Complete Ooty toy train timings for 2027 — Mettupalayam to Ooty and Coonoor to Ooty schedules, ticket prices, booking tricks, and journey tips for the UNESCO Nilgiri Mountain Railway.',
     category: 'travel-tips',
-    date: 'January 1, 2027',
+    date: 'August 1, 2026',
     readTime: '12 min read',
     image: 'https://images.pexels.com/photos/5119188/pexels-photo-5119188.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Ooty', 'Toy Train', 'Nilgiri Mountain Railway', 'Timings', 'Booking', '2027'],
@@ -218,7 +218,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Discover the rich historical legacy of Arulmigu Dhandayuthapani Swamy Temple — one of the six abodes of Lord Murugan — spanning over a century of faith, architecture, and pilgrimage tradition.',
     category: 'history',
-    date: 'March 14, 2026',
+    date: 'August 1, 2026',
     readTime: '12 min read',
     image: 'https://images.pexels.com/photos/33557105/pexels-photo-33557105.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     tags: ['Palani', 'Temple', 'Murugan', 'Tamil Nadu', 'History', 'Pilgrimage'],

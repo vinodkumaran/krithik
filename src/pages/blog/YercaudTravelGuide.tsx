@@ -12,8 +12,8 @@ const schema = {
       "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200",
       "author": { "@type": "Organization", "name": "Krithik Tours and Travels" },
       "publisher": { "@type": "Organization", "name": "Krithik Tours and Travels" },
-      "datePublished": "2025-01-01",
-      "dateModified": "2025-06-01",
+      "datePublished": "2026-08-01",
+      "dateModified": "2026-08-01",
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.krithiktours.com/blog/hill-stations/yercaud-travel-guide" }
     },
     {
@@ -72,7 +72,7 @@ export default function YercaudTravelGuide() {
           </h1>
           <div className="flex items-center gap-4 mt-4 text-sm text-gray-300">
             <span className="flex items-center gap-1"><Clock size={14} /> 9 min read</span>
-            <span>January 1, 2025</span>
+            <span>August 1, 2026</span>
             <span className="flex items-center gap-1"><MapPin size={14} /> Yercaud, Salem, Tamil Nadu</span>
           </div>
         </div>

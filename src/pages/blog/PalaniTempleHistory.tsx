@@ -35,7 +35,7 @@ export default function PalaniTempleHistory() {
           </h1>
           <div className="flex items-center gap-4 mt-4 text-sm text-gray-300">
             <span className="flex items-center gap-1"><Clock size={14} /> 12 min read</span>
-            <span>March 14, 2026</span>
+            <span>August 1, 2026</span>
             <span className="flex items-center gap-1"><MapPin size={14} /> Palani, Tamil Nadu</span>
           </div>
         </div>

@@ -12,8 +12,8 @@ const schema = {
       "image": "https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?w=1200",
       "author": { "@type": "Organization", "name": "Krithik Tours and Travels" },
       "publisher": { "@type": "Organization", "name": "Krithik Tours and Travels" },
-      "datePublished": "2025-01-01",
-      "dateModified": "2025-06-01",
+      "datePublished": "2026-08-01",
+      "dateModified": "2026-08-01",
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.krithiktours.com/blog/itineraries/yercaud-2-days-1-night-itinerary" }
     },
     {
@@ -66,7 +66,7 @@ export default function Yercaud2Days() {
           </h1>
           <div className="flex items-center gap-4 mt-4 text-sm text-gray-300">
             <span className="flex items-center gap-1"><Clock size={14} /> 7 min read</span>
-            <span>January 1, 2025</span>
+            <span>August 1, 2026</span>
             <span className="flex items-center gap-1"><MapPin size={14} /> Yercaud, Salem, Tamil Nadu</span>
           </div>
         </div>

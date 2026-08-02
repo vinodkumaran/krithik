@@ -12,8 +12,8 @@ const schema = {
       "image": "/krithik_tours_hero_background.jpg",
       "author": { "@type": "Organization", "name": "Krithik Tours and Travels" },
       "publisher": { "@type": "Organization", "name": "Krithik Tours and Travels" },
-      "datePublished": "2027-01-01",
-      "dateModified": "2027-01-01",
+      "datePublished": "2026-08-01",
+      "dateModified": "2026-08-01",
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.krithiktours.com/blog/travel-tips/ooty-toy-train-timings-2027" }
     },
     {
@@ -118,7 +118,7 @@ export default function OotyToyTrainTimings() {
           </h1>
           <div className="flex items-center gap-4 mt-4 text-sm text-gray-300">
             <span className="flex items-center gap-1"><Clock size={14} /> 12 min read</span>
-            <span>January 1, 2027</span>
+            <span>August 1, 2026</span>
             <span className="flex items-center gap-1"><MapPin size={14} /> Ooty, Tamil Nadu</span>
           </div>
         </div>
