@@ -412,7 +412,7 @@ const PalaniTouristPlaces = () => {
         "url": "https://yourwebsite.com",
         "logo": "https://yourwebsite.com/logo.png",
         "telephone": "+91-XXXXXXXXXX",
-        "email": "info@krithiktours.com",
+        "email": "info@krithiktoursandtravels.com",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Palani",

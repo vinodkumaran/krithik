@@ -9,20 +9,20 @@ const schema = {
       "@type": "Article",
       "headline": "Kodaikanal Travel Guide: Best Hill Station in Tamil Nadu",
       "description": "Discover Kodaikanal — the Princess of Hill Stations at 2,133m in Tamil Nadu. Explore top 10 attractions, best time to visit, how to reach, and local food. Call 8925001292.",
-      "image": "https://www.krithiktours.com/Kodaikanal.jpg",
+      "image": "https://www.krithiktoursandtravels.com/Kodaikanal.jpg",
       "author": { "@type": "Organization", "name": "Krithik Tours and Travels" },
       "publisher": { "@type": "Organization", "name": "Krithik Tours and Travels" },
       "datePublished": "2026-08-01",
       "dateModified": "2026-08-01",
-      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.krithiktours.com/blog/hill-stations/kodaikanal-travel-guide" }
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.krithiktoursandtravels.com/blog/hill-stations/kodaikanal-travel-guide" }
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.krithiktours.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.krithiktours.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Hill Stations", "item": "https://www.krithiktours.com/blog/hill-stations" },
-        { "@type": "ListItem", "position": 4, "name": "Kodaikanal Travel Guide", "item": "https://www.krithiktours.com/blog/hill-stations/kodaikanal-travel-guide" }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.krithiktoursandtravels.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.krithiktoursandtravels.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Hill Stations", "item": "https://www.krithiktoursandtravels.com/blog/hill-stations" },
+        { "@type": "ListItem", "position": 4, "name": "Kodaikanal Travel Guide", "item": "https://www.krithiktoursandtravels.com/blog/hill-stations/kodaikanal-travel-guide" }
       ]
     },
     {

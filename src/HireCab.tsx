@@ -291,11 +291,11 @@ function HireCab() {
                   +91 89250 01292
                 </a>
                 <a
-                  href="mailto:info@krithiktravels.com"
+                  href="mailto:info@krithiktoursandtravels.com"
                   className="footer-link"
                 >
                   <Mail size={20} className="mr-3 footer-icon" />
-                  info@krithiktravels.com
+                  info@krithiktoursandtravels.com
                 </a>
                 <a
                   href="https://share.google/7d6cvuPYRa27zVHO2"

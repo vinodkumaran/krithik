@@ -5,31 +5,31 @@ export default function NRISouthIndiaTour() {
   const schemaMarkup = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "@id": "https://krithiktravels.com/nri-south-india-tour-pickup-drop-ooty/#blogpost",
+    "@id": "https://krithiktoursandtravels.com/nri-south-india-tour-pickup-drop-ooty/#blogpost",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://krithiktravels.com/nri-south-india-tour-pickup-drop-ooty/"
+      "@id": "https://krithiktoursandtravels.com/nri-south-india-tour-pickup-drop-ooty/"
     },
     "headline": "NRI South India Tour: Pickup, Star Hotels & Complete Guided Travel",
     "description": "Complete NRI tour packages for South India with airport pickup, premium hotels, and guided travel across Tamil Nadu destinations.",
     "image": {
       "@type": "ImageObject",
-      "url": "https://krithiktravels.com/ooty.jpg",
+      "url": "https://krithiktoursandtravels.com/ooty.jpg",
       "width": 1200,
       "height": 675
     },
     "author": {
       "@type": "Organization",
       "name": "Krithik Tours & Travels",
-      "url": "https://krithiktravels.com/"
+      "url": "https://krithiktoursandtravels.com/"
     },
     "publisher": {
       "@type": "TravelAgency",
       "name": "Krithik Tours & Travels",
-      "url": "https://krithiktravels.com/",
+      "url": "https://krithiktoursandtravels.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://krithiktravels.com/krithik_travels_logo.png",
+        "url": "https://krithiktoursandtravels.com/krithik_travels_logo.png",
         "width": 300,
         "height": 100
       }
@@ -58,7 +58,7 @@ export default function NRISouthIndiaTour() {
     "isPartOf": {
       "@type": "Blog",
       "name": "Krithik Tours & Travels Blog",
-      "url": "https://krithiktravels.com/blog/"
+      "url": "https://krithiktoursandtravels.com/blog/"
     },
     "mentions": [
       {
@@ -73,7 +73,7 @@ export default function NRISouthIndiaTour() {
     "potentialAction": {
       "@type": "ReadAction",
       "target": [
-        "https://krithiktravels.com/nri-south-india-tour-pickup-drop-ooty/"
+        "https://krithiktoursandtravels.com/nri-south-india-tour-pickup-drop-ooty/"
       ]
     }
   });
@@ -88,8 +88,8 @@ export default function NRISouthIndiaTour() {
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
-            { '@type': 'ListItem', position: 2, name: 'NRI South India Tour with Ooty Pickup & Drop', item: 'https://www.krithiktravels.com/nri-south-india-tour-pickup-drop-ooty' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktoursandtravels.com/' },
+            { '@type': 'ListItem', position: 2, name: 'NRI South India Tour with Ooty Pickup & Drop', item: 'https://www.krithiktoursandtravels.com/nri-south-india-tour-pickup-drop-ooty' },
           ],
         },
       ]}

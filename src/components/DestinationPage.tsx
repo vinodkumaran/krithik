@@ -55,8 +55,8 @@ export default function DestinationPage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
-      { '@type': 'ListItem', position: 2, name: destination.title, item: `https://www.krithiktravels.com${window.location.pathname}` },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktoursandtravels.com/' },
+      { '@type': 'ListItem', position: 2, name: destination.title, item: `https://www.krithiktoursandtravels.com${window.location.pathname}` },
     ],
   };
 
@@ -65,11 +65,11 @@ export default function DestinationPage({
     '@type': 'TouristTrip',
     name: destination.title,
     description: destination.description,
-    image: `https://www.krithiktravels.com${destination.image}`,
+    image: `https://www.krithiktoursandtravels.com${destination.image}`,
     provider: {
       '@type': 'TravelAgency',
       name: 'Krithik Tours & Travels',
-      url: 'https://www.krithiktravels.com/',
+      url: 'https://www.krithiktoursandtravels.com/',
       telephone: '+918925001292',
     },
     touristType: ['Family', 'Pilgrims', 'Groups'],

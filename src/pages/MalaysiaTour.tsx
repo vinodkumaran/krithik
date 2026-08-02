@@ -5,31 +5,31 @@ export default function MalaysiaTour() {
   const schemaMarkup = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "@id": "https://krithiktravels.com/malaysia-to-south-india-tour-package/#blogpost",
+    "@id": "https://krithiktoursandtravels.com/malaysia-to-south-india-tour-package/#blogpost",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://krithiktravels.com/malaysia-to-south-india-tour-package/"
+      "@id": "https://krithiktoursandtravels.com/malaysia-to-south-india-tour-package/"
     },
     "headline": "Malaysia to South India Tour: Heritage, Hills & Spiritual Trails",
     "description": "Exclusive tour packages for Malaysian travelers exploring South India temples, hill stations, and cultural heritage.",
     "image": {
       "@type": "ImageObject",
-      "url": "https://krithiktravels.com/munnar.jpg",
+      "url": "https://krithiktoursandtravels.com/munnar.jpg",
       "width": 1200,
       "height": 675
     },
     "author": {
       "@type": "Organization",
       "name": "Krithik Tours & Travels",
-      "url": "https://krithiktravels.com/"
+      "url": "https://krithiktoursandtravels.com/"
     },
     "publisher": {
       "@type": "TravelAgency",
       "name": "Krithik Tours & Travels",
-      "url": "https://krithiktravels.com/",
+      "url": "https://krithiktoursandtravels.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://krithiktravels.com/krithik_travels_logo.png",
+        "url": "https://krithiktoursandtravels.com/krithik_travels_logo.png",
         "width": 300,
         "height": 100
       }
@@ -57,7 +57,7 @@ export default function MalaysiaTour() {
     "isPartOf": {
       "@type": "Blog",
       "name": "Krithik Tours & Travels Blog",
-      "url": "https://krithiktravels.com/blog/"
+      "url": "https://krithiktoursandtravels.com/blog/"
     },
     "mentions": [
       {
@@ -72,7 +72,7 @@ export default function MalaysiaTour() {
     "potentialAction": {
       "@type": "ReadAction",
       "target": [
-        "https://krithiktravels.com/malaysia-to-south-india-tour-package/"
+        "https://krithiktoursandtravels.com/malaysia-to-south-india-tour-package/"
       ]
     }
   });
@@ -87,8 +87,8 @@ export default function MalaysiaTour() {
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
-            { '@type': 'ListItem', position: 2, name: 'Malaysia to South India Tour Package', item: 'https://www.krithiktravels.com/malaysia-to-south-india-tour-package' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktoursandtravels.com/' },
+            { '@type': 'ListItem', position: 2, name: 'Malaysia to South India Tour Package', item: 'https://www.krithiktoursandtravels.com/malaysia-to-south-india-tour-package' },
           ],
         },
       ]}

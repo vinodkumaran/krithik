@@ -5,31 +5,31 @@ export default function CoimbatoreMarudhamalai() {
   const schemaMarkup = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "@id": "https://krithiktravels.com/coimbatore-marudhamalai-one-day-trip/#blogpost",
+    "@id": "https://krithiktoursandtravels.com/coimbatore-marudhamalai-one-day-trip/#blogpost",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://krithiktravels.com/coimbatore-marudhamalai-one-day-trip/"
+      "@id": "https://krithiktoursandtravels.com/coimbatore-marudhamalai-one-day-trip/"
     },
     "headline": "Coimbatore & Marudhamalai One Day Trip: Spirituality Meets City Life",
     "description": "Experience the perfect blend of spiritual devotion and urban culture with Marudhamalai Temple and Coimbatore city tour.",
     "image": {
       "@type": "ImageObject",
-      "url": "https://krithiktravels.com/Coorg.jpg",
+      "url": "https://krithiktoursandtravels.com/Coorg.jpg",
       "width": 1200,
       "height": 675
     },
     "author": {
       "@type": "Organization",
       "name": "Krithik Tours & Travels",
-      "url": "https://krithiktravels.com/"
+      "url": "https://krithiktoursandtravels.com/"
     },
     "publisher": {
       "@type": "TravelAgency",
       "name": "Krithik Tours & Travels",
-      "url": "https://krithiktravels.com/",
+      "url": "https://krithiktoursandtravels.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://krithiktravels.com/krithik_travels_logo.png",
+        "url": "https://krithiktoursandtravels.com/krithik_travels_logo.png",
         "width": 300,
         "height": 100
       }
@@ -58,7 +58,7 @@ export default function CoimbatoreMarudhamalai() {
     "isPartOf": {
       "@type": "Blog",
       "name": "Krithik Tours & Travels Blog",
-      "url": "https://krithiktravels.com/blog/"
+      "url": "https://krithiktoursandtravels.com/blog/"
     },
     "mentions": [
       {
@@ -73,7 +73,7 @@ export default function CoimbatoreMarudhamalai() {
     "potentialAction": {
       "@type": "ReadAction",
       "target": [
-        "https://krithiktravels.com/coimbatore-marudhamalai-one-day-trip/"
+        "https://krithiktoursandtravels.com/coimbatore-marudhamalai-one-day-trip/"
       ]
     }
   });
@@ -88,8 +88,8 @@ export default function CoimbatoreMarudhamalai() {
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
-            { '@type': 'ListItem', position: 2, name: 'Coimbatore Marudhamalai One Day Trip', item: 'https://www.krithiktravels.com/coimbatore-marudhamalai-one-day-trip' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktoursandtravels.com/' },
+            { '@type': 'ListItem', position: 2, name: 'Coimbatore Marudhamalai One Day Trip', item: 'https://www.krithiktoursandtravels.com/coimbatore-marudhamalai-one-day-trip' },
           ],
         },
       ]}

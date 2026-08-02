@@ -14,15 +14,15 @@ const schema = {
       "publisher": { "@type": "Organization", "name": "Krithik Tours and Travels" },
       "datePublished": "2026-08-01",
       "dateModified": "2026-08-01",
-      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.krithiktours.com/blog/itineraries/mysore-3-days-itinerary" }
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.krithiktoursandtravels.com/blog/itineraries/mysore-3-days-itinerary" }
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.krithiktours.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.krithiktours.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Itineraries", "item": "https://www.krithiktours.com/blog/itineraries" },
-        { "@type": "ListItem", "position": 4, "name": "Mysore 3 Days Itinerary", "item": "https://www.krithiktours.com/blog/itineraries/mysore-3-days-itinerary" }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.krithiktoursandtravels.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.krithiktoursandtravels.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Itineraries", "item": "https://www.krithiktoursandtravels.com/blog/itineraries" },
+        { "@type": "ListItem", "position": 4, "name": "Mysore 3 Days Itinerary", "item": "https://www.krithiktoursandtravels.com/blog/itineraries/mysore-3-days-itinerary" }
       ]
     },
     {

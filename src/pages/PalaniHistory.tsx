@@ -5,31 +5,31 @@ export default function PalaniHistory() {
   const schemaMarkup = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "@id": "https://krithiktravels.com/palani-history-temple-history/#blogpost",
+    "@id": "https://krithiktoursandtravels.com/palani-history-temple-history/#blogpost",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://krithiktravels.com/palani-history-temple-history/"
+      "@id": "https://krithiktoursandtravels.com/palani-history-temple-history/"
     },
     "headline": "History of Palani Temple: The Sacred Story of Lord Murugan",
     "description": "Explore the ancient history, legends, and spiritual significance of Palani Murugan Temple, one of the six Arupadai Veedu shrines.",
     "image": {
       "@type": "ImageObject",
-      "url": "https://krithiktravels.com/palani.jpg",
+      "url": "https://krithiktoursandtravels.com/palani.jpg",
       "width": 1200,
       "height": 675
     },
     "author": {
       "@type": "Organization",
       "name": "Krithik Tours & Travels",
-      "url": "https://krithiktravels.com/"
+      "url": "https://krithiktoursandtravels.com/"
     },
     "publisher": {
       "@type": "TravelAgency",
       "name": "Krithik Tours & Travels",
-      "url": "https://krithiktravels.com/",
+      "url": "https://krithiktoursandtravels.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://krithiktravels.com/krithik_travels_logo.png",
+        "url": "https://krithiktoursandtravels.com/krithik_travels_logo.png",
         "width": 300,
         "height": 100
       }
@@ -58,7 +58,7 @@ export default function PalaniHistory() {
     "isPartOf": {
       "@type": "Blog",
       "name": "Krithik Tours & Travels Blog",
-      "url": "https://krithiktravels.com/blog/"
+      "url": "https://krithiktoursandtravels.com/blog/"
     },
     "mentions": [
       {
@@ -73,7 +73,7 @@ export default function PalaniHistory() {
     "potentialAction": {
       "@type": "ReadAction",
       "target": [
-        "https://krithiktravels.com/palani-history-temple-history/"
+        "https://krithiktoursandtravels.com/palani-history-temple-history/"
       ]
     }
   });
@@ -88,8 +88,8 @@ export default function PalaniHistory() {
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
-            { '@type': 'ListItem', position: 2, name: 'Palani History & Temple History', item: 'https://www.krithiktravels.com/palani-history-temple-history' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktoursandtravels.com/' },
+            { '@type': 'ListItem', position: 2, name: 'Palani History & Temple History', item: 'https://www.krithiktoursandtravels.com/palani-history-temple-history' },
           ],
         },
       ]}

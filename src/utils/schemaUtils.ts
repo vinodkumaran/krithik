@@ -1,4 +1,4 @@
-const BASE_URL = 'https://www.krithiktravels.com';
+const BASE_URL = 'https://www.krithiktoursandtravels.com';
 
 export interface BreadcrumbItem {
   name: string;

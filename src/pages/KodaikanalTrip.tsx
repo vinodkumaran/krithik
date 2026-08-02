@@ -5,31 +5,31 @@ export default function KodaikanalTrip() {
   const schemaMarkup = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "@id": "https://krithiktravels.com/kodaikanal-two-days-trip/#blogpost",
+    "@id": "https://krithiktoursandtravels.com/kodaikanal-two-days-trip/#blogpost",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://krithiktravels.com/kodaikanal-two-days-trip/"
+      "@id": "https://krithiktoursandtravels.com/kodaikanal-two-days-trip/"
     },
     "headline": "Kodaikanal Two Days Trip: Discover the Princess of Hill Stations",
     "description": "Complete 2-day Kodaikanal itinerary covering Pillar Rocks, Coaker's Walk, Bryant Park and more scenic destinations.",
     "image": {
       "@type": "ImageObject",
-      "url": "https://krithiktravels.com/Kodaikanal.jpg",
+      "url": "https://krithiktoursandtravels.com/Kodaikanal.jpg",
       "width": 1200,
       "height": 675
     },
     "author": {
       "@type": "Organization",
       "name": "Krithik Tours & Travels",
-      "url": "https://krithiktravels.com/"
+      "url": "https://krithiktoursandtravels.com/"
     },
     "publisher": {
       "@type": "TravelAgency",
       "name": "Krithik Tours & Travels",
-      "url": "https://krithiktravels.com/",
+      "url": "https://krithiktoursandtravels.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://krithiktravels.com/krithik_travels_logo.png",
+        "url": "https://krithiktoursandtravels.com/krithik_travels_logo.png",
         "width": 300,
         "height": 100
       }
@@ -58,7 +58,7 @@ export default function KodaikanalTrip() {
     "isPartOf": {
       "@type": "Blog",
       "name": "Krithik Tours & Travels Blog",
-      "url": "https://krithiktravels.com/blog/"
+      "url": "https://krithiktoursandtravels.com/blog/"
     },
     "mentions": [
       {
@@ -73,7 +73,7 @@ export default function KodaikanalTrip() {
     "potentialAction": {
       "@type": "ReadAction",
       "target": [
-        "https://krithiktravels.com/kodaikanal-two-days-trip/"
+        "https://krithiktoursandtravels.com/kodaikanal-two-days-trip/"
       ]
     }
   });
@@ -88,8 +88,8 @@ export default function KodaikanalTrip() {
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
-            { '@type': 'ListItem', position: 2, name: 'Kodaikanal Two Days Trip', item: 'https://www.krithiktravels.com/kodaikanal-two-days-trip' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktoursandtravels.com/' },
+            { '@type': 'ListItem', position: 2, name: 'Kodaikanal Two Days Trip', item: 'https://www.krithiktoursandtravels.com/kodaikanal-two-days-trip' },
           ],
         },
       ]}

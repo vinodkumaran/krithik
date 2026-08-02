@@ -14,15 +14,15 @@ const schema = {
       "publisher": { "@type": "Organization", "name": "Krithik Tours and Travels" },
       "datePublished": "2026-08-01",
       "dateModified": "2026-08-01",
-      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.krithiktours.com/blog/hill-stations/munnar-travel-guide" }
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.krithiktoursandtravels.com/blog/hill-stations/munnar-travel-guide" }
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.krithiktours.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.krithiktours.com/blog" },
-        { "@type": "ListItem", "position": 3, "name": "Hill Stations", "item": "https://www.krithiktours.com/blog/hill-stations" },
-        { "@type": "ListItem", "position": 4, "name": "Munnar Travel Guide", "item": "https://www.krithiktours.com/blog/hill-stations/munnar-travel-guide" }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.krithiktoursandtravels.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.krithiktoursandtravels.com/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Hill Stations", "item": "https://www.krithiktoursandtravels.com/blog/hill-stations" },
+        { "@type": "ListItem", "position": 4, "name": "Munnar Travel Guide", "item": "https://www.krithiktoursandtravels.com/blog/hill-stations/munnar-travel-guide" }
       ]
     },
     {

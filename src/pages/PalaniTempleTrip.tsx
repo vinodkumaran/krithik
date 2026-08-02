@@ -5,31 +5,31 @@ export default function PalaniTempleTrip() {
   const schemaMarkup = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "@id": "https://krithiktravels.com/palani-temple-one-day-trip/#blogpost",
+    "@id": "https://krithiktoursandtravels.com/palani-temple-one-day-trip/#blogpost",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://krithiktravels.com/palani-temple-one-day-trip/"
+      "@id": "https://krithiktoursandtravels.com/palani-temple-one-day-trip/"
     },
     "headline": "Palani Temple One Day Trip: A Sacred Journey to Lord Murugan's Hill Shrine",
     "description": "Complete guide to Palani Temple one-day trip with darshan, rituals, and travel tips from Krithik Tours & Travels.",
     "image": {
       "@type": "ImageObject",
-      "url": "https://krithiktravels.com/palani.jpg",
+      "url": "https://krithiktoursandtravels.com/palani.jpg",
       "width": 1200,
       "height": 675
     },
     "author": {
       "@type": "Organization",
       "name": "Krithik Tours & Travels",
-      "url": "https://krithiktravels.com/"
+      "url": "https://krithiktoursandtravels.com/"
     },
     "publisher": {
       "@type": "TravelAgency",
       "name": "Krithik Tours & Travels",
-      "url": "https://krithiktravels.com/",
+      "url": "https://krithiktoursandtravels.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://krithiktravels.com/krithik_travels_logo.png",
+        "url": "https://krithiktoursandtravels.com/krithik_travels_logo.png",
         "width": 300,
         "height": 100
       }
@@ -58,7 +58,7 @@ export default function PalaniTempleTrip() {
     "isPartOf": {
       "@type": "Blog",
       "name": "Krithik Tours & Travels Blog",
-      "url": "https://krithiktravels.com/blog/"
+      "url": "https://krithiktoursandtravels.com/blog/"
     },
     "mentions": [
       {
@@ -73,7 +73,7 @@ export default function PalaniTempleTrip() {
     "potentialAction": {
       "@type": "ReadAction",
       "target": [
-        "https://krithiktravels.com/palani-temple-one-day-trip/"
+        "https://krithiktoursandtravels.com/palani-temple-one-day-trip/"
       ]
     }
   });
@@ -88,8 +88,8 @@ export default function PalaniTempleTrip() {
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktravels.com/' },
-            { '@type': 'ListItem', position: 2, name: 'Palani Temple One Day Trip', item: 'https://www.krithiktravels.com/palani-temple-one-day-trip' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.krithiktoursandtravels.com/' },
+            { '@type': 'ListItem', position: 2, name: 'Palani Temple One Day Trip', item: 'https://www.krithiktoursandtravels.com/palani-temple-one-day-trip' },
           ],
         },
       ]}
