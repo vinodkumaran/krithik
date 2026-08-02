@@ -123,8 +123,8 @@ function App() {
                 className="w-full h-40 object-cover"
               />
               <div className="p-2">
-                <h3 className="font-bold text-base">Kodaikanal 3D/2N Stay</h3>
-                <p className="text-xs text-green-100">Summer Holidays</p>
+                <h3 className="font-bold text-base">Kodaikanal</h3>
+                <p className="text-xs text-green-100">3D/2N Stay</p>
               </div>
             </button>
           </div>
@@ -173,8 +173,8 @@ function App() {
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-4">
-                    <h3 className="font-bold text-lg">Kodaikanal 3D/2N Stay</h3>
-                    <p className="text-sm text-green-100">Summer Holidays</p>
+                    <h3 className="font-bold text-lg">Kodaikanal</h3>
+                    <p className="text-sm text-green-100">3D/2N Stay</p>
                   </div>
                 </button>
                 <button
