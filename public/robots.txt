@@ -136,5 +136,9 @@ Allow: /
 User-agent: Zoominfobot
 Allow: /
 
+# --- LLMs.txt ---
+# Information for AI/LLM systems about this website
+# https://www.krithiktravels.com/llms.txt
+
 # --- Sitemap Index ---
 Sitemap: https://www.krithiktravels.com/sitemap.xml
