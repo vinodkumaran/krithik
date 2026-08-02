@@ -50,7 +50,7 @@ export default function YercaudTravelGuide() {
 
       <section className="relative h-[420px] md:h-[520px] overflow-hidden">
         <img
-          src="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?w=1200&h=675&fit=crop"
+          src="/krithik_tours_hero_background.jpg"
           alt="Yercaud hill station Shevaroy Hills Salem Tamil Nadu aerial view"
           title="Yercaud — Salem's Hill Station Gem"
           loading="lazy"

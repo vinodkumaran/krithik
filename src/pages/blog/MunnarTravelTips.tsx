@@ -44,7 +44,7 @@ export default function MunnarTravelTips() {
 
       <section className="relative h-[420px] md:h-[520px] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=675&fit=crop"
+          src="/krithik_tours_hero_background.jpg"
           alt="Munnar travel tips 2025 Kerala hill station tea garden planning guide"
           title="Munnar Travel Planning Guide 2025"
           loading="lazy"

@@ -50,7 +50,7 @@ export default function MysoreTravelTips() {
 
       <section className="relative h-[420px] md:h-[520px] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1592639296346-560c37a0f711?w=1200&h=675&fit=crop"
+          src="/krithik_tours_hero_background.jpg"
           alt="Mysore Palace travel tips Karnataka tourism guide illuminated"
           title="Mysore Palace — Karnataka's Royal Heritage"
           loading="lazy"

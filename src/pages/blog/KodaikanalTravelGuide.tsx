@@ -51,7 +51,7 @@ export default function KodaikanalTravelGuide() {
 
       <section className="relative h-[420px] md:h-[520px] overflow-hidden">
         <img
-          src="/Kodaikanal.jpg"
+          src="/krithik_tours_hero_background.jpg"
           alt="Kodaikanal lake aerial drone view Tamil Nadu hill station"
           title="Kodaikanal Lake — Princess of Hill Stations"
           loading="lazy"

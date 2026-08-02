@@ -44,7 +44,7 @@ export default function Yercaud2Days() {
 
       <section className="relative h-[420px] md:h-[520px] overflow-hidden">
         <img
-          src="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?w=1200&h=675&fit=crop"
+          src="/krithik_tours_hero_background.jpg"
           alt="Yercaud 2 days 1 night itinerary Salem hill station weekend trip"
           title="Yercaud 2 Days 1 Night — Quick Salem Escape"
           loading="lazy"

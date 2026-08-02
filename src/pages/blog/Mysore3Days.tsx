@@ -90,7 +90,7 @@ export default function Mysore3Days() {
 
       <section className="relative h-[420px] md:h-[520px] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1592639296346-560c37a0f711?w=1200&h=675&fit=crop"
+          src="/krithik_tours_hero_background.jpg"
           alt="Mysore 3 days itinerary palace temples heritage Karnataka"
           title="Mysore 3 Days — Palaces, Temples and Royal Heritage"
           loading="lazy"

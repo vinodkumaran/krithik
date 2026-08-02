@@ -44,7 +44,7 @@ export default function AlleppeyHistory() {
 
       <section className="relative h-[420px] md:h-[520px] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&h=675&fit=crop"
+          src="/krithik_tours_hero_background.jpg"
           alt="Alleppey history Venice of the East Kerala backwater heritage"
           title="Alleppey — The Venice of the East"
           loading="lazy"

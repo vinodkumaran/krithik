@@ -55,7 +55,7 @@ export default function KodaikanalHistory() {
 
       <section className="relative h-[420px] md:h-[520px] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=675&fit=crop"
+          src="/krithik_tours_hero_background.jpg"
           alt="Kodaikanal history Palani Hills colonial heritage Tamil Nadu"
           title="Kodaikanal — From Palani Hills to British Hill Resort"
           loading="lazy"

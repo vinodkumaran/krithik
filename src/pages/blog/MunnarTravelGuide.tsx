@@ -50,7 +50,7 @@ export default function MunnarTravelGuide() {
 
       <section className="relative h-[420px] md:h-[520px] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=675&fit=crop"
+          src="/krithik_tours_hero_background.jpg"
           alt="Munnar tea gardens Kerala hill station aerial drone view"
           title="Munnar Tea Gardens — Kerala's Hill Station"
           loading="lazy"

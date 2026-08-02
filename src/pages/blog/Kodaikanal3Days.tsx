@@ -96,7 +96,7 @@ export default function Kodaikanal3Days() {
 
       <section className="relative h-[420px] md:h-[520px] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=675&fit=crop"
+          src="/krithik_tours_hero_background.jpg"
           alt="Kodaikanal 3 days 2 nights itinerary weekend trip Tamil Nadu hill station"
           title="Kodaikanal 3 Days 2 Nights — Perfect Weekend Trip"
           loading="lazy"

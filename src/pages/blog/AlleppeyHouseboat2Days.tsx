@@ -44,7 +44,7 @@ export default function AlleppeyHouseboat2Days() {
 
       <section className="relative h-[420px] md:h-[520px] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&h=675&fit=crop"
+          src="/krithik_tours_hero_background.jpg"
           alt="Alleppey houseboat itinerary 2 days 1 night Kerala backwater experience"
           title="Alleppey Houseboat — 2 Days 1 Night Backwater Experience"
           loading="lazy"

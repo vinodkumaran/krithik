@@ -50,7 +50,7 @@ export default function AlleppeyHouseboatTips() {
 
       <section className="relative h-[420px] md:h-[520px] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&h=675&fit=crop"
+          src="/krithik_tours_hero_background.jpg"
           alt="Alleppey houseboat Kerala backwaters boat stay tips planning guide"
           title="Alleppey Houseboat Stay — Kerala Backwaters"
           loading="lazy"
