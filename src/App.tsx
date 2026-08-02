@@ -187,7 +187,7 @@ function App() {
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-4">
-                    <h3 className="font-bold text-lg">Ooty Weekend</h3>
+                    <h3 className="font-bold text-lg">Ooty</h3>
                     <p className="text-sm text-green-100">This Weekend</p>
                   </div>
                 </button>
@@ -292,7 +292,7 @@ function App() {
                 className="w-full h-40 object-cover"
               />
               <div className="p-2">
-                <h3 className="font-bold text-base">Ooty Weekend</h3>
+                <h3 className="font-bold text-base">Ooty</h3>
                 <p className="text-xs text-green-100">This Weekend</p>
               </div>
             </button>
