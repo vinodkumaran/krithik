@@ -14,7 +14,7 @@ export default function NRISouthIndiaTour() {
     "description": "Complete NRI tour packages for South India with airport pickup, premium hotels, and guided travel across Tamil Nadu destinations.",
     "image": {
       "@type": "ImageObject",
-      "url": "https://krithiktoursandtravels.com/ooty.jpg",
+      "url": "https://krithiktoursandtravels.com/Ooty_Nilgiri_Mountain_Railway_toy_train_2027.png",
       "width": 1200,
       "height": 675
     },
@@ -96,7 +96,7 @@ export default function NRISouthIndiaTour() {
     >
       <div className="space-y-6">
         <img
-          src="/ooty.jpg"
+          src="/Ooty_Nilgiri_Mountain_Railway_toy_train_2027.png"
           alt="Ooty Hill Station"
           className="w-full h-64 md:h-96 object-cover rounded-xl shadow-lg mb-8"
         />

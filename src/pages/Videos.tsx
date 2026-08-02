@@ -151,7 +151,7 @@ function Videos() {
                   className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-all cursor-pointer w-full text-left"
                 >
                   <img
-                    src="/ooty.jpg"
+                    src="/Ooty_Nilgiri_Mountain_Railway_toy_train_2027.png"
                     alt="Ooty"
                     className="w-full h-48 object-cover"
                   />
@@ -248,7 +248,7 @@ function Videos() {
               className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden shadow-lg transform hover:scale-105 active:scale-95 transition-all cursor-pointer"
             >
               <img
-                src="/ooty.jpg"
+                src="/Ooty_Nilgiri_Mountain_Railway_toy_train_2027.png"
                 alt="Ooty"
                 className="w-full h-40 object-cover"
               />

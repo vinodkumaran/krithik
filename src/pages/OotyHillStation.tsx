@@ -12,7 +12,7 @@ export default function OotyHillStation() {
         name: 'Ooty',
         title: 'Ooty Hill Station Itinerary - Queen of the Nilgiris',
         description: 'Experience the charm of Ooty, famous for its botanical gardens, scenic tea gardens, and cool climate. Enjoy boating on the lake, visit the largest rose garden in Asia, and explore the surrounding hill stations.',
-        image: '/ooty.jpg',
+        image: '/Ooty_Nilgiri_Mountain_Railway_toy_train_2027.png',
         fleetInfo: {
           sedan: 'AC sedan for Ooty travel (2-4 passengers) with scenic route expertise.',
           suv: 'Comfortable AC SUV for hill station exploration (4-6 passengers) with superior suspension.',
